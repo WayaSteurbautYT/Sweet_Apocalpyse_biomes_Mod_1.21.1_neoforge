@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sweetapocalpysebiome:item/titanium_candy_sword"
+    "layer0": "sweetapocalpysebiome:item/candy_titanium_sword"
   }
 }
