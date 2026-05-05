@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sweetapocalpysebiome:cooky_cobble_stone"
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:cooky_stone"
+  }
+}

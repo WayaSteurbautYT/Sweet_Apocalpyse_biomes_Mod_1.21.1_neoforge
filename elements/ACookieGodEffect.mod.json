@@ -1,0 +1,36 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "A Cookie God Effect",
+    "icon": "cookie_potion_effect",
+    "color": {
+      "value": -5932476,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "entity.generic.explode"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": 0.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": {
+      "name": "ACookieGodEffectEffectStartedapplied"
+    },
+    "onMobRemoved": {
+      "name": "ACookieGodEffectOnEntityDeath"
+    }
+  }
+}

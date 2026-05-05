@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "sweetapocalpysebiome:block/chocolate_log2",
+    "particle": "sweetapocalpysebiome:block/chocolate_log2"
+  },
+  "render_type": "solid"
+}

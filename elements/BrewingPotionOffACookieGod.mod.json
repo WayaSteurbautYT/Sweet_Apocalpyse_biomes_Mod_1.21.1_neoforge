@@ -1,0 +1,26 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.COOKIE"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.TOTEM_OF_UNDYING"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:ACookieGodEffectPotion"
+    },
+    "name": "brewing_potion_off_a_cookie_god",
+    "namespace": "mod"
+  }
+}

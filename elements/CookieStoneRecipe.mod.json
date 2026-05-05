@@ -1,0 +1,30 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "TAG:minecraft:base_stone_overworld"
+      },
+      {
+        "value": "CUSTOM:CookyCobbleStone"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CookyCobbleStone"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookyStone"
+    },
+    "name": "cookie_stone_recipe",
+    "namespace": "mod"
+  }
+}

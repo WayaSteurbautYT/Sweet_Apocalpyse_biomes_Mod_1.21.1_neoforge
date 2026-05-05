@@ -1,0 +1,22 @@
+{
+  "sweet_apocalpyse_song1": {
+    "sounds": [
+      {
+        "name": "sweetapocalpysebiome:sweet1",
+        "stream": true
+      },
+      {
+        "name": "sweetapocalpysebiome:sweet2",
+        "stream": true
+      },
+      {
+        "name": "sweetapocalpysebiome:sweet3",
+        "stream": true
+      },
+      {
+        "name": "sweetapocalpysebiome:sweet4",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Sweet Aura",
+    "rarity": "RARE",
+    "type": "ARMOR",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "minEnchantability": 20,
+    "maxEnchantability": 50,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isAllowedOnBooks": true,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true,
+    "specialInfo": [
+      "Grants increased luck when wearing armor",
+      "Higher levels provide more luck bonus",
+      "Works on all armor pieces"
+    ],
+    "onEntityDamaged": {
+      "name": "SweetAuraEffect"
+    }
+  }
+}

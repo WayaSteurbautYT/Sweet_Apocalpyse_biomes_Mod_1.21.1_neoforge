@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sweetapocalpysebiome:block/chatgpt_image_30_apr_2026_21_28_53",
+    "particle": "sweetapocalpysebiome:block/chatgpt_image_30_apr_2026_21_28_53"
+  },
+  "render_type": "solid"
+}

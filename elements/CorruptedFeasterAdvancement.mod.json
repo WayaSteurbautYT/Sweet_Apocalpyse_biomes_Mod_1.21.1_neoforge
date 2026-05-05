@@ -1,0 +1,36 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": {
+      "value": "CUSTOM:DiabetesType1"
+    },
+    "criteria": {
+      "corrupted_feaster": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "experience": 50,
+      "loot": [
+        "sweetapocalpysebiome:blocks/chocolatecorrupted"
+      ]
+    },
+    "display": {
+      "icon": {
+        "item": "sweetapocalpysebiome:chocolatecorrupted"
+      },
+      "title": "Corrupted Feaster",
+      "description": "Consume corrupted food and embrace the sweet darkness",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "CorruptedFeaster",
+    "x": 0,
+    "y": 0
+  }
+}

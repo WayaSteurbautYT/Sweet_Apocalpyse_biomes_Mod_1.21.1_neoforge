@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sweetapocalpysebiome:block/chocolate_cookie_log_top",
+    "up": "sweetapocalpysebiome:block/chocolate_cookie_log_top",
+    "north": "sweetapocalpysebiome:block/chocolate_log2",
+    "east": "sweetapocalpysebiome:block/chocolate_log2",
+    "south": "sweetapocalpysebiome:block/chocolate_log2",
+    "west": "sweetapocalpysebiome:block/chocolate_log2",
+    "particle": "sweetapocalpysebiome:block/chocolate_log2"
+  },
+  "render_type": "solid"
+}

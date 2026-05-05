@@ -1,0 +1,30 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "A Sticky Situation Effect",
+    "icon": "its_not_good_for_the_skin_effect",
+    "color": {
+      "value": -65419,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "DAMAGE_INDICATOR"
+    },
+    "onAddedSound": {
+      "value": "entity.slime.death"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "AStickySituationEffectEffectStartedapplied"
+    },
+    "onMobRemoved": {
+      "name": "AStickySituationEffectOnEntityDeath"
+    }
+  }
+}

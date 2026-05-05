@@ -1,0 +1,22 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of A Sticky Situation",
+    "splashName": "Splash Potion of A Sticky Situation Effect Potion",
+    "lingeringName": "Lingering Potion of A Sticky Situation Effect Potion",
+    "arrowName": "Arrow A Sticky Situation Effect Potion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:AStickySituationEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

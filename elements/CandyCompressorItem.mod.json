@@ -1,0 +1,41 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "candy_compressor",
+    "customModelName": "Normal",
+    "name": "Candy Compressor",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:SweetApocalypse"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": null,
+    "damageVsEntity": 0,
+    "damageOnBreak": 0,
+    "destroySpeed": 1,
+    "immuneToFire": false,
+    "stayInGridWhenCrafted": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "enableRangedDamage": false,
+    "enableMagicDamage": false,
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 0,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "CandyCompressorRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CandyCompressorRightClickedOnBlock"
+    },
+    "specialInfo": [
+      "A powerful device for compressing candy materials",
+      "Right-click to open compression interface"
+    ]
+  }
+}

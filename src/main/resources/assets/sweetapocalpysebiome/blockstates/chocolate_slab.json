@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sweetapocalpysebiome:block/chocolate_slab"
+    },
+    "type=top": {
+      "model": "sweetapocalpysebiome:block/chocolate_slab_top"
+    },
+    "type=double": {
+      "model": "sweetapocalpysebiome:block/chocolate_slab_full"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 85,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Libberator Off Candy",
+    "achievementDescription": "Men you really did it Now try getting sticky situation or itsnotgoodfortheskin  for rewards ???",
+    "achievementIcon": {
+      "value": "CUSTOM:CandyGrass"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "CandyTitaniumOreLootTable",
+      "CandyGrassLootTable",
+      "CookieStone"
+    ],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ACookieGodMiner"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"128\" y=\"65\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:CandySwamp</field></block></next></block></xml>"
+  }
+}

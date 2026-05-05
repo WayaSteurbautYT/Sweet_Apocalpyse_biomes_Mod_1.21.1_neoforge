@@ -1,0 +1,215 @@
+{
+  "_fv": 85,
+  "_type": "biome",
+  "definition": {
+    "name": "Candy Swamp",
+    "groundBlock": {
+      "value": "CUSTOM:CandyGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:CandyDIrt"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:CookyStone"
+    },
+    "airColor": {
+      "value": -1020763,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -12766425,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -4687558,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1125705,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "additionsSound": {
+      "value": "ambient.cave"
+    },
+    "music": {
+      "value": "CUSTOM:sweet_apocalpyse_song1"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 50.0,
+    "rainingPossibility": 0.1,
+    "temperature": 1.6,
+    "spawnBiome": true,
+    "spawnInCaves": true,
+    "spawnBiomeNether": true,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.5,
+      "max": 0.5001
+    },
+    "genErosion": {
+      "min": -0.255,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 10,
+    "treeStem": {
+      "value": "CUSTOM:ChocolateLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:ChocolateLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.SCULK_VEIN"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:CookyCobbleStone"
+    },
+    "defaultFeatures": [
+      "Ores",
+      "MonsterRooms",
+      "AmethystGeodes",
+      "DeadBushes",
+      "InfestedStone",
+      "Caves"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "COLD",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPiglin"
+        },
+        "minGroup": 10,
+        "maxGroup": 15,
+        "weight": 18,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityBlaze"
+        },
+        "minGroup": 5,
+        "maxGroup": 15,
+        "weight": 18,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 8,
+        "maxGroup": 15,
+        "weight": 6,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreaking"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 5,
+        "maxGroup": 10,
+        "weight": 15,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 18,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityWarden"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 1,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityVillager"
+        },
+        "minGroup": 10,
+        "maxGroup": 25,
+        "weight": 18,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityIronGolem"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 1,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

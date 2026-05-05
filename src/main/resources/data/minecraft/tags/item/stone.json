@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "sweetapocalpysebiome:cooky_smooth_stone",
+    {
+      "id": "#minecraft:base_stone_overworld",
+      "required": false
+    },
+    "minecraft:cookie",
+    "sweetapocalpysebiome:cooky_stone",
+    "sweetapocalpysebiome:cooky_cobble_stone"
+  ]
+}

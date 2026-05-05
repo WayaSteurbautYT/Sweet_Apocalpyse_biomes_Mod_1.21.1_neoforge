@@ -1,0 +1,1603 @@
+{
+  "mod_elements": [
+    {
+      "name": "CookyCobbleStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooky_cobble_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CookyCobbleStoneBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/cooky_cobble_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/cooky_cobble_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/cooky_cobble_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/cooky_cobble_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "CookyStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooky_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/cooky_stone.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CookyStoneBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/cooky_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/cooky_stone.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/cooky_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "CookySmoothStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooky_smooth_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/cooky_smooth_stone.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CookySmoothStoneBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/cooky_smooth_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/cooky_smooth_stone.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/cooky_smooth_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieStoneRecipeCookies",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_stone_recipe_cookies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/cookie_stone_recipe_cookies.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/cookie_stone_recipe_cookies.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieSmoothStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_smooth_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/cookie_smooth_stone_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/cookie_smooth_stone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieSmoothStoneBlastFurnaceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_smooth_stone_blast_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/cookie_smooth_stone_blast_furnace_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/recipe/cookie_smooth_stone_blast_furnace_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumCandyIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_candy_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/titanium_candy_ingot.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/item/TitaniumCandyIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SweetApocalypse",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_apocalypse",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ACookieGodMiner",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_cookie_god_miner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/a_cookie_god_miner.json"
+        ]
+      }
+    },
+    {
+      "name": "ACookieGodEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_cookie_god_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/ACookieGodEffectEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ACookieGodEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_cookie_god_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/potion/ACookieGodEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AStickySituation",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sticky_situation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/a_sticky_situation.json"
+        ]
+      }
+    },
+    {
+      "name": "ThatsNotGoodForSkin",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thats_not_good_for_skin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/thats_not_good_for_skin.json"
+        ]
+      }
+    },
+    {
+      "name": "CandyTitaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/candy_titanium_ore.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/configured_feature/candy_titanium_ore.json",
+          "src/main/resources/data/sweetapocalpysebiome/neoforge/biome_modifier/candy_titanium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CandyTitaniumOreBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/placed_feature/candy_titanium_ore.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/candy_titanium_ore.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/candy_titanium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ItsNotGoodForTheSkinEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_good_for_the_skin_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ItsNotGoodForTheSkinEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_good_for_the_skin_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/potion/ItsNotGoodForTheSkinEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AStickySituationEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sticky_situation_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/AStickySituationEffectEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AStickySituationEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sticky_situation_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/potion/AStickySituationEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyTitaniumOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_titanium_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/candy_titanium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CandySwamp",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/configured_feature/candy_swamp_tree.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/world/features/treedecorators/CandySwampFruitDecorator.java",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/biome/candy_swamp.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/world/features/treedecorators/CandySwampLeaveDecorator.java",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/placed_feature/candy_swamp_tree.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/world/features/treedecorators/CandySwampTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyTitaniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/neoforge/biome_modifier/candy_titanium_block_biome_modifier.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/candy_titanium_block.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/placed_feature/candy_titanium_block.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/candy_titanium_block.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CandyTitaniumBlockBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/configured_feature/candy_titanium_block.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/candy_titanium_block.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/candy_titanium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CandyGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/neoforge/biome_modifier/candy_grass_biome_modifier.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/configured_feature/candy_grass.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/placed_feature/candy_grass.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/candy_grass.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/candy_grass.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/candy_grass.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/candy_grass.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CandyGrassBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyDIrt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_d_irt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/candy_d_irt.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/configured_feature/candy_d_irt.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/CandyDIrtBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/placed_feature/candy_d_irt.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/candy_d_irt.json",
+          "src/main/resources/data/sweetapocalpysebiome/neoforge/biome_modifier/candy_d_irt_biome_modifier.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/candy_d_irt.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/candy_d_irt.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_log.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_log.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_log.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateLogBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_log.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_wood.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateWoodBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_wood.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_wood.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChocolateLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chocolate_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/stripped_chocolate_log.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/stripped_chocolate_log.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/stripped_chocolate_log.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/StrippedChocolateLogBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/stripped_chocolate_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChocolateWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chocolate_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/stripped_chocolate_wood.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/stripped_chocolate_wood.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/StrippedChocolateWoodBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/stripped_chocolate_wood.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/stripped_chocolate_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolatePlanksBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_planks.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_planks.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_planks.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateLeavesBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_leaves.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_leaves.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_leaves.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_stairs.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateStairsBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_stairs.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_stairs_inner.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_stairs.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_stairs.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_slab.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_slab.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_slab_full.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_slab_top.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateSlabBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_slab.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_post.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_inventory.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateFenceBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_fence.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_fence.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_fence_gate.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_gate.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_fence_gate.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateFenceGateBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_fence_gate.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_gate_wall.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_gate_wall_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_bottom_left_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_top_left_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_bottom_right_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_top_right.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_bottom_right.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_top_right_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_door.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_door.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_top_left.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateDoorBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_door_bottom_left.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_door.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_trapdoor.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_trapdoor.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_trapdoor.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_trapdoor_open.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_trapdoor_top.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_trapdoor.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateTrapdoorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_pressure_plate_down.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_pressure_plate.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolatePressurePlateBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_pressure_plate.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_pressure_plate.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_button.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_button.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_button.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_button_pressed.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateButtonBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_button.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateWallSignBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_sign.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_sign.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateSignBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_sign.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_sign.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_wall_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateWallHangingSignBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_wall_hanging_sign.json",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/chocolate_hanging_sign.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/ChocolateHangingSignBlock.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_hanging_sign.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/chocolate_hanging_sign.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/chocolate_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolate_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChocolateWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_wood_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChocolateWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chocolate_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/stripped_chocolate_wood_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/stripped_chocolate_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_planks_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_stairs_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_slab_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_fence_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_fence_gate_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_door_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_trapdoor_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_pressure_plate_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_button_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_sign_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_hanging_sign_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_boat_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/chocolate_chest_boat_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/recipe/chocolate_chest_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/cookie_stone_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/cookie_stone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WhenCandyBlocksAreBroken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_candy_blocks_are_broken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/WhenCandyBlocksAreBrokenProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CandyGrassLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_grass_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/candy_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieStone",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/cooky_cobble_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLiberatorOffCandy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_liberator_off_candy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/TheLiberatorOffCandyProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheLibberatorOffCandy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_libberator_off_candy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/the_libberator_off_candy.json"
+        ]
+      }
+    },
+    {
+      "name": "ACookieGodEffectOnEntityDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_cookie_god_effect_on_entity_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/ACookieGodEffectOnEntityDeathProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ACookieGodEffectPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_cookie_god_effect_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DiabetesType1",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabetes_type_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/advancement/diabetes_type_1.json"
+        ]
+      }
+    },
+    {
+      "name": "AStickySituationEffectOnEntityDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sticky_situation_effect_on_entity_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/AStickySituationEffectOnEntityDeathProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AStickySituationEffectPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sticky_situation_effect_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ItsNotGoodForTheSkinPotionEffect",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_good_for_the_skin_potion_effect",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BrewingPotionOffACookieGod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewing_potion_off_a_cookie_god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/recipe/brewing/BrewingPotionOffACookieGodBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BrewingPotionOffAStickySituation",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewing_potion_off_a_sticky_situation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/recipe/brewing/BrewingPotionOffAStickySituationBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BrewingPotionOffNotGoodForTheSkin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewing_potion_off_not_good_for_the_skin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/recipe/brewing/BrewingPotionOffNotGoodForTheSkinBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "ItsNotGoodForTheSkinEffectOnEntityDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_not_good_for_the_skin_effect_on_entity_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/procedures/ItsNotGoodForTheSkinEffectOnEntityDeathProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateHouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/template_pool/chocolate_house.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/structure/chocolate_house.json",
+          "src/main/resources/data/sweetapocalpysebiome/worldgen/structure_set/chocolate_house.json"
+        ]
+      }
+    },
+    {
+      "name": "CookieStoneBlastingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_stone_blasting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/cookie_stone_blasting_recipe.json",
+          "src/main/resources/data/sweetapocalpysebiome/advancement/recipes/cookie_stone_blasting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChocolatePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chocolate_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/stripped_chocolate_planks.json",
+          "src/main/resources/assets/sweetapocalpysebiome/models/block/stripped_chocolate_planks.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/block/StrippedChocolatePlanksBlock.java",
+          "src/main/resources/data/sweetapocalpysebiome/loot_table/blocks/stripped_chocolate_planks.json",
+          "src/main/resources/assets/sweetapocalpysebiome/blockstates/stripped_chocolate_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CandyTitaniumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_titanium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sweetapocalpysebiome/recipe/candy_titanium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CustomCorruptionSystem",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_corruption_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/CustomCorruptionSystem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedFoodEffect",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corrupted_food_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/CorruptedFoodEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnplayerPurifyUse",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "onplayer_purify_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/OnplayerPurifyUse.java"
+        ]
+      }
+    },
+    {
+      "name": "Chocolatecorrupted",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolatecorrupted",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolatecorrupted.json",
+          "src/main/java/net/mcreator/sweetapocalpysebiome/item/ChocolatecorruptedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Chocolatefragment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolatefragment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/item/ChocolatefragmentItem.java",
+          "src/main/resources/assets/sweetapocalpysebiome/models/item/chocolatefragment.json"
+        ]
+      }
+    },
+    {
+      "name": "Corruptionpotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptionpotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Purifypotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifypotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WhenOnPlayerDrinksPurifyPotion",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "when_on_player_drinks_purify_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sweetapocalpysebiome/WhenOnPlayerDrinksPurifyPotion.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sweet_apocalpyse_song1",
+      "files": [
+        "sweet1",
+        "sweet2",
+        "sweet3",
+        "sweet4"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CookySmoothStone"
+    ],
+    "ITEMS:minecraft:stone": [
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookySmoothStone",
+      "TAG:minecraft:base_stone_overworld",
+      "Items.COOKIE"
+    ],
+    "ITEMS:minecraft:cookie": [
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookySmoothStone",
+      "Items.COOKIE"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:TitaniumCandyIngot"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/village_savanna": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedChocolatePlanks",
+      "~CUSTOM:CookyCobbleStone",
+      "~CUSTOM:CandyDIrt",
+      "~CUSTOM:CookyStone",
+      "~CUSTOM:ChocolateHangingSign.wall",
+      "~CUSTOM:ChocolateHangingSign",
+      "~CUSTOM:ChocolateSign",
+      "~CUSTOM:ChocolateSign.wall",
+      "~CUSTOM:ChocolateButton",
+      "~CUSTOM:ChocolatePressurePlate",
+      "~CUSTOM:ChocolateTrapdoor",
+      "~CUSTOM:ChocolateDoor",
+      "~CUSTOM:ChocolateFenceGate",
+      "~CUSTOM:ChocolateFence",
+      "~CUSTOM:ChocolateSlab",
+      "~CUSTOM:ChocolateStairs",
+      "~CUSTOM:ChocolatePlanks",
+      "~CUSTOM:StrippedChocolateWood",
+      "~CUSTOM:StrippedChocolateLog",
+      "~CUSTOM:ChocolateWood",
+      "~CUSTOM:ChocolateLog",
+      "~CUSTOM:CandyTitaniumOre",
+      "~CUSTOM:CandyTitaniumBlock"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CandyTitaniumOre"
+    ],
+    "BLOCKS:mod:chocolate_logs": [
+      "CUSTOM:ChocolateLog",
+      "CUSTOM:ChocolateWood",
+      "CUSTOM:StrippedChocolateLog",
+      "CUSTOM:StrippedChocolateWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:chocolate_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:StrippedChocolatePlanks"
+    ],
+    "ITEMS:mod:chocolate_logs": [
+      "CUSTOM:ChocolateLog",
+      "CUSTOM:ChocolateWood",
+      "CUSTOM:StrippedChocolateLog",
+      "CUSTOM:StrippedChocolateWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:chocolate_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:StrippedChocolatePlanks"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:ChocolateLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:ChocolateLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:ChocolateStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:ChocolateSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:ChocolateFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:ChocolateDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:ChocolateTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:ChocolatePressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:ChocolateButton"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~CUSTOM:ChocolateSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~CUSTOM:ChocolateSign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~CUSTOM:ChocolateHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~CUSTOM:ChocolateHangingSign.wall"
+    ],
+    "ITEMS:mod:sweetyrewardsloot": [
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookySmoothStone",
+      "CUSTOM:CandyTitaniumOre",
+      "CUSTOM:CandyTitaniumBlock",
+      "CUSTOM:CandyGrass",
+      "CUSTOM:CandyDIrt"
+    ],
+    "BLOCKS:mod:candy_blocks": [
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookySmoothStone",
+      "CUSTOM:CandyTitaniumOre",
+      "CUSTOM:CandyTitaniumBlock",
+      "CUSTOM:CandyGrass",
+      "CUSTOM:CandyDIrt"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CookyCobbleStone",
+      "~CUSTOM:CookyStone"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:CandySwamp"
+    ],
+    "ITEMS:mod:cookie_stones": [
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookySmoothStone"
+    ],
+    "ITEMS:minecraft:cookie_stones": [
+      "CUSTOM:CookyCobbleStone",
+      "CUSTOM:CookyStone",
+      "CUSTOM:CookySmoothStone"
+    ],
+    "ITEMS:mod:corruptible_foods": [
+      "Items.COOKIE"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.sweetapocalpysebiome.cooky_cobble_stone": "Cooky Cobble Stone",
+      "block.sweetapocalpysebiome.cooky_stone": "Cooky Cobble Stone",
+      "block.sweetapocalpysebiome.cooky_smooth_stone": "Cooky Cobble Stone",
+      "item.sweetapocalpysebiome.titanium_candy_ingot": "Titanium Candy Ingot",
+      "item_group.sweetapocalpysebiome.sweet_apocalypse": "Sweet Apocalypse",
+      "advancements.a_cookie_god_miner.descr": "Men you must really like that youtuber",
+      "advancements.a_cookie_god_miner.title": "A Cookie God Miner",
+      "effect.sweetapocalpysebiome.a_cookie_god_effect": "A Cookie God Effect",
+      "advancements.a_sticky_situation.descr": "Someone Wanted to stick around",
+      "advancements.a_sticky_situation.title": "A Sticky Situation",
+      "advancements.thats_not_good_for_skin.descr": "You had to mine it what and idiot",
+      "advancements.thats_not_good_for_skin.title": "Thats Not Good For Skin",
+      "block.sweetapocalpysebiome.candy_titanium_ore": "Candy Titanium Ore",
+      "effect.sweetapocalpysebiome.its_not_good_for_the_skin_effect": "Its Not Good For The Skin Effect",
+      "effect.sweetapocalpysebiome.a_sticky_situation_effect": "A Sticky Situation Effect",
+      "subtitles.sweet_apocalpyse_song1": "",
+      "biome.sweetapocalpysebiome.candy_swamp": "Candy Swamp",
+      "block.sweetapocalpysebiome.candy_titanium_block": "Candy Titanium Block",
+      "block.sweetapocalpysebiome.candy_grass": "Candy Grass",
+      "block.sweetapocalpysebiome.candy_d_irt": "Candy Grass",
+      "block.sweetapocalpysebiome.chocolate_log": "Chocolate Log",
+      "block.sweetapocalpysebiome.chocolate_wood": "Chocolate Wood",
+      "block.sweetapocalpysebiome.stripped_chocolate_log": "Stripped Chocolate Log",
+      "block.sweetapocalpysebiome.stripped_chocolate_wood": "Stripped Chocolate Wood",
+      "block.sweetapocalpysebiome.chocolate_planks": "Chocolate Planks",
+      "block.sweetapocalpysebiome.chocolate_leaves": "Chocolate Leaves",
+      "block.sweetapocalpysebiome.chocolate_stairs": "Chocolate Stairs",
+      "block.sweetapocalpysebiome.chocolate_slab": "Chocolate Slab",
+      "block.sweetapocalpysebiome.chocolate_fence": "Chocolate Fence",
+      "block.sweetapocalpysebiome.chocolate_fence_gate": "Chocolate Fence Gate",
+      "block.sweetapocalpysebiome.chocolate_door": "Chocolate Door",
+      "block.sweetapocalpysebiome.chocolate_trapdoor": "Chocolate Trapdoor",
+      "block.sweetapocalpysebiome.chocolate_pressure_plate": "Chocolate Pressure Plate",
+      "block.sweetapocalpysebiome.chocolate_button": "Chocolate Button",
+      "block.sweetapocalpysebiome.chocolate_sign": "Chocolate Sign",
+      "block.sweetapocalpysebiome.chocolate_hanging_sign": "Chocolate Hanging Sign",
+      "item.sweetapocalpysebiome.chocolate_boat": "Chocolate Boat",
+      "item.sweetapocalpysebiome.chocolate_chest_boat": "Chocolate Boat with Chest",
+      "advancements.the_libberator_off_candy.descr": "Men you really did it Now try getting sticky situation or itsnotgoodfortheskin  for rewards ???",
+      "advancements.the_libberator_off_candy.title": "The Libberator Off Candy",
+      "item.minecraft.potion.effect.a_cookie_god_effect_potion": "Potion of A Cookie God Effect Potion",
+      "item.minecraft.lingering_potion.effect.a_cookie_god_effect_potion": "Lingering Potion of A Cookie God Effect Potion",
+      "item.minecraft.tipped_arrow.effect.a_cookie_god_effect_potion": "Arrow of A Cookie God Effect Potion",
+      "item.minecraft.splash_potion.effect.a_cookie_god_effect_potion": "Splash Potion of A Cookie God Effect Potion",
+      "advancements.diabetes_type_1.descr": "Well same like you really enjoyed Life without insolince",
+      "advancements.diabetes_type_1.title": "Diabetes Type 1",
+      "item.minecraft.lingering_potion.effect.a_sticky_situation_effect_potion": "Lingering Potion of A Sticky Situation Effect Potion",
+      "item.minecraft.tipped_arrow.effect.a_sticky_situation_effect_potion": "Arrow A Sticky Situation Effect Potion",
+      "item.minecraft.potion.effect.a_sticky_situation_effect_potion": "Potion of A Sticky Situation",
+      "item.minecraft.splash_potion.effect.a_sticky_situation_effect_potion": "Splash Potion of A Sticky Situation Effect Potion",
+      "item.minecraft.tipped_arrow.effect.its_not_good_for_the_skin_potion_effect": "Arrow of Its Not Good For The Skin Potion Effect",
+      "item.minecraft.potion.effect.its_not_good_for_the_skin_potion_effect": "Potion of Its Not Good For The Skin Potion Effect",
+      "item.minecraft.lingering_potion.effect.its_not_good_for_the_skin_potion_effect": "Lingering Potion of Its Not Good For The Skin Potion Effect",
+      "item.minecraft.splash_potion.effect.its_not_good_for_the_skin_potion_effect": "Splash Potion of Its Not Good For The Skin Potion Effect",
+      "block.sweetapocalpysebiome.stripped_chocolate_planks": "Stripped Chocolate Wood",
+      "item.sweetapocalpysebiome.chocolatecorrupted": "Chocolatecorrupted",
+      "item.sweetapocalpysebiome.chocolatefragment": "Chocolatefragment",
+      "item.minecraft.splash_potion.effect.corruptionpotion": "Splash Potion of Corruptionpotion",
+      "item.minecraft.potion.effect.corruptionpotion": "Potion of Corruptionpotion",
+      "item.minecraft.lingering_potion.effect.corruptionpotion": "Lingering Potion of Corruptionpotion",
+      "item.minecraft.tipped_arrow.effect.corruptionpotion": "Arrow of Corruptionpotion",
+      "item.minecraft.lingering_potion.effect.purifypotion": "Lingering Potion of Purifypotion",
+      "item.minecraft.tipped_arrow.effect.purifypotion": "Arrow of Purifypotion",
+      "item.minecraft.splash_potion.effect.purifypotion": "Splash Potion of Purifypotion",
+      "item.minecraft.potion.effect.purifypotion": "Potion of Purifypotion",
+      "item.sweetapocalpysebiome.chocolatecorrupted_1": "Chocolatecorrupted"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModBiomes.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModWoodTypes.java",
+      "src/main/resources/data/neoforge/data_maps/item/compostables.json",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModMobEffects.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModPotions.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModBoatTypes.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModBlocks.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModSounds.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/sweetapocalpysebiome.mixins.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/sweetapocalpysebiome/sounds.json",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/SweetapocalpysebiomeMod.java",
+      "src/main/resources/META-INF/enumextensions.json",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModDispenseBehaviors.java",
+      "src/main/java/net/mcreator/sweetapocalpysebiome/init/SweetapocalpysebiomeModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sweetapocalpysebiome",
+    "modName": "SweetApocalpyseBiome",
+    "version": "1.0.1",
+    "description": "Sweet Apocalypse Biome Mod Dont get Yourself In A sticky Sitaution",
+    "author": "WayaCreateYT",
+    "websiteURL": "https://www.youtube.com/@wayasteurbaut",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "candydirt",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sweetapocalpysebiome"
+  },
+  "mcreatorVersion": 202600114619
+}

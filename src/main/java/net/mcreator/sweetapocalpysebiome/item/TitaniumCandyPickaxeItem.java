@@ -1,0 +1,28 @@
+package net.mcreator.sweetapocalpysebiome.item;
+
+import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
+import org.jetbrains.annotations.NotNull;
+
+public class TitaniumCandyPickaxeItem extends PickaxeItem {
+	public TitaniumCandyPickaxeItem() {
+		super(Tiers.DIAMOND, new Item.Properties());
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(@NotNull ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(@NotNull ItemStack itemstack) {
+		ItemStack retval = new ItemStack(this);
+		retval.setDamageValue(itemstack.getDamageValue() + 1);
+		if (retval.getDamageValue() >= retval.getMaxDamage()) {
+			return ItemStack.EMPTY;
+		}
+		return retval;
+	}
+}

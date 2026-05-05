@@ -1,0 +1,14 @@
+{
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "duration": 1800,
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:haste",
+      "duration": 1200,
+      "amplifier": 0
+    }
+  ]
+}

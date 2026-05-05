@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "particle": "sweetapocalpysebiome:block/chocolate_oak_bottem_with_cookieflicks",
+    "bottom": "sweetapocalpysebiome:block/chocolate_oak_bottem_with_cookieflicks",
+    "top": "sweetapocalpysebiome:block/chocolate_oak_bottem_with_cookieflicks"
+  },
+  "render_type": "cutout"
+}

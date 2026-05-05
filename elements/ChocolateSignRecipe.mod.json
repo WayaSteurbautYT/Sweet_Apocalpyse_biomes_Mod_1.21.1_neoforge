@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_sign",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChocolateSign"
+    },
+    "name": "chocolate_sign_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sweetapocalpysebiome:block/chocolate_leaves_dark",
+    "particle": "sweetapocalpysebiome:block/chocolate_leaves_dark"
+  }
+}

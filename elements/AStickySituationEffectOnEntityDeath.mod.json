@@ -1,0 +1,8 @@
+{
+  "_fv": 85,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"313\" y=\"80\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><mutation else=\"1\"></mutation><value name=\"IF0\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:AStickySituationEffect</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><statement name=\"DO0\"><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Youre A fool</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><next><block type=\"world_send_chat\"><field name=\"color\">#ff2a85</field><field name=\"bold\">TRUE</field><field name=\"italic\">TRUE</field><field name=\"underlined\">FALSE</field><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Has Died Due to diabetes type ??</field></block></value><next><block type=\"entity_add_achievement\"><field name=\"achievement\">CUSTOM:DiabetesType1</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></next></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

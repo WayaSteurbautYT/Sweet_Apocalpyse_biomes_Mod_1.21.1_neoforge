@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "has_titanium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweetapocalpysebiome:titanium_candy_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_titanium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweetapocalpysebiome:titanium_candy_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_titanium_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweetapocalpysebiome:titanium_candy_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_titanium_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweetapocalpysebiome:titanium_candy_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium_pickaxe",
+      "has_titanium_sword",
+      "has_titanium_axe",
+      "has_titanium_shovel"
+    ]
+  ],
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "sweetapocalpysebiome:entities/candy_titanium_ore"
+    ]
+  },
+  "display": {
+    "icon": {
+      "item": "sweetapocalpysebiome:titanium_candy_sword"
+    },
+    "title": {
+      "translate": "advancement.sweetapocalpysebiome.titanium_candy_tools_master.title",
+      "fallback": "Titanium Candy Tools Master"
+    },
+    "description": {
+      "translate": "advancement.sweetapocalpysebiome.titanium_candy_tools_master.description",
+      "fallback": "Craft all titanium candy tools and become a master of the sweet apocalypse!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  }
+}

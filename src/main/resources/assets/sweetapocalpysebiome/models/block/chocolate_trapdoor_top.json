@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "sweetapocalpysebiome:block/chocolate_oak_bottem_with_cookieflicks",
+    "particle": "sweetapocalpysebiome:block/chocolate_oak_bottem_with_cookieflicks"
+  },
+  "render_type": "cutout"
+}

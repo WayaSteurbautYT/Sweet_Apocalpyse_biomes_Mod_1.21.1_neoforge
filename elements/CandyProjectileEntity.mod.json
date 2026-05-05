@@ -1,0 +1,54 @@
+{
+  "_fv": 69,
+  "_type": "entity",
+  "definition": {
+    "name": "Candy Projectile",
+    "visualScale": {
+      "value": 1.0
+    },
+    "shadowSize": 0.5,
+    "boundingBoxScale": {
+      "value": 1.0
+    },
+    "trackingRange": 64,
+    "updateInterval": 1,
+    "shouldUpdate": true,
+    "isBoss": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToKnockback": false,
+    "waterMovement": "DISALLOWED",
+    "movementType": "FLYING",
+    "collidesWithEntities": true,
+    "collidesWithBlocks": true,
+    "hasAI": false,
+    "isRideable": false,
+    "isControllable": false,
+    "isPersistent": false,
+    "spawnInDungeons": false,
+    "despawnDelay": 600,
+    "spawnProbabilityPerChunk": 0,
+    "restrictionBiomes": [],
+    "spawnWorldTypes": [],
+    "doInitialFireSpread": false,
+    "fireSpreadSpeed": 0,
+    "entityData": {
+      "type": "PROJECTILE"
+    },
+    "onInitialSpawn": {
+      "name": "CandyProjectileOnInitialSpawn"
+    },
+    "onProjectileHitEntity": {
+      "name": "CandyProjectileHitEntity"
+    },
+    "onProjectileHitBlock": {
+      "name": "CandyProjectileHitBlock"
+    },
+    "specialInfo": [
+      "A projectile made of candy fragments",
+      "Causes negative effects on impact",
+      "Can be thrown by players or entities"
+    ]
+  }
+}

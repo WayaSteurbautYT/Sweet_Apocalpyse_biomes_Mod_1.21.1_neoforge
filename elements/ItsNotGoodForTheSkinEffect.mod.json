@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Its Not Good For The Skin Effect",
+    "icon": "chatgpt_image_1_mei_2026_16_41_37",
+    "color": {
+      "value": -3270762,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "AStickySituationEffectEffectStartedapplied"
+    },
+    "onMobRemoved": {
+      "name": "ItsNotGoodForTheSkinEffectOnEntityDeath"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "sweetapocalpysebiome:block/chocolatecookie_plank",
+    "particle": "sweetapocalpysebiome:block/chocolatecookie_plank"
+  },
+  "render_type": "solid"
+}

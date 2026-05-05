@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "sweetapocalpysebiome:chocolate_logs"
+    }
+  ],
+  "result": {
+    "id": "sweetapocalpysebiome:chocolate_planks",
+    "count": 4
+  }
+}

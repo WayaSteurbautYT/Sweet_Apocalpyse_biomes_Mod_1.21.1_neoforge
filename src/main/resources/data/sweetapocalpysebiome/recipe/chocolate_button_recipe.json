@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sweetapocalpysebiome:chocolate_planks"
+    }
+  ],
+  "result": {
+    "id": "sweetapocalpysebiome:chocolate_button",
+    "count": 1
+  }
+}

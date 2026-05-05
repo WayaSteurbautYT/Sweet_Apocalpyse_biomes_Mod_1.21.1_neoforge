@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:pumpkin"
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:candy_titanium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:magma_block"
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:candy_titanium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:melon"
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:candy_titanium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "0",
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:candy_titanium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diamond_ore"
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:candy_titanium_ore"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "sweetapocalpysebiome:candy_titanium_block",
+  "step": "underground_ores"
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "potion_bottle_corrupted",
+    "customModelName": "Normal",
+    "name": "Corrupted Brew",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:SweetApocalypse"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": null,
+    "damageVsEntity": 0,
+    "damageOnBreak": 0,
+    "destroySpeed": 1,
+    "immuneToFire": false,
+    "stayInGridWhenCrafted": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "enableRangedDamage": false,
+    "enableMagicDamage": false,
+    "hasGlow": false,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0,
+    "eatingResult": null,
+    "forCreativeTab": true,
+    "specialInfo": [
+      "A dangerous corrupted brew",
+      "Causes multiple negative effects",
+      "Brewed with chocolate corrupted"
+    ],
+    "onFinishDrinking": {
+      "name": "CorruptedBrewEffect"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "effects": [
+    {
+      "effect": "minecraft:poison",
+      "duration": 400,
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:weakness",
+      "duration": 600,
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:blindness",
+      "duration": 200,
+      "amplifier": 0
+    },
+    {
+      "effect": "sweetapocalpysebiome:its_not_good_for_the_skin_effect",
+      "duration": 800,
+      "amplifier": 1
+    }
+  ]
+}

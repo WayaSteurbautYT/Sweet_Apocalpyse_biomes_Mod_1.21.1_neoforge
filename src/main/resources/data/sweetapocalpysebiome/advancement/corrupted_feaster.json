@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:chocolatecorrupted"
+    },
+    "title": {
+      "translate": "advancements.corrupted_feaster.title",
+      "fallback": "Corrupted Feaster"
+    },
+    "description": {
+      "translate": "advancements.corrupted_feaster.descr",
+      "fallback": "Consume corrupted food and embrace the sweet darkness"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "corrupted_feaster_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "sweetapocalpysebiome:items/chocolatecorrupted"
+    ]
+  },
+  "parent": "sweetapocalpysebiome:diabetes_type_1"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sweetapocalpysebiome:block/stripped_cookie_log_dark",
+    "up": "sweetapocalpysebiome:block/stripped_cookie_log_dark",
+    "north": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark",
+    "east": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark",
+    "south": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark",
+    "west": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark",
+    "particle": "sweetapocalpysebiome:block/stripped_chocolate_log"
+  },
+  "render_type": "solid"
+}

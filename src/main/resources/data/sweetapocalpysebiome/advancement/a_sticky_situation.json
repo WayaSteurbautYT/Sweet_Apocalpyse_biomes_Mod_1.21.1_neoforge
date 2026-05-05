@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:titanium_candy_ingot"
+    },
+    "title": {
+      "translate": "advancements.a_sticky_situation.title"
+    },
+    "description": {
+      "translate": "advancements.a_sticky_situation.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_sticky_situation_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:the_libberator_off_candy"
+}

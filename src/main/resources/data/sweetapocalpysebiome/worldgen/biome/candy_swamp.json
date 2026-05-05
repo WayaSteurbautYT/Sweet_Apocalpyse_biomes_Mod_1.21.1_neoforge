@@ -1,0 +1,123 @@
+{
+  "has_precipitation": true,
+  "temperature": 1.6,
+  "downfall": 0.1,
+  "effects": {
+    "ambient_sound": "ambient.crimson_forest.additions",
+    "additions_sound": {
+      "sound": "ambient.cave",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "sweetapocalpysebiome:sweet_apocalpyse_song1",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.5
+    },
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -1020763,
+    "fog_color": -12766425,
+    "water_color": -4687558,
+    "water_fog_color": -1125705
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "chicken",
+        "weight": 6,
+        "minCount": 8,
+        "maxCount": 15
+      },
+      {
+        "type": "enderman",
+        "weight": 15,
+        "minCount": 5,
+        "maxCount": 10
+      },
+      {
+        "type": "chicken",
+        "weight": 18,
+        "minCount": 4,
+        "maxCount": 10
+      }
+    ],
+    "creature": [
+      {
+        "type": "piglin",
+        "weight": 18,
+        "minCount": 10,
+        "maxCount": 15
+      },
+      {
+        "type": "blaze",
+        "weight": 18,
+        "minCount": 5,
+        "maxCount": 15
+      },
+      {
+        "type": "bat",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "villager",
+        "weight": 18,
+        "minCount": 10,
+        "maxCount": 25
+      },
+      {
+        "type": "iron_golem",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [
+      {
+        "type": "zombie",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "warden",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "sweetapocalpysebiome:candy_swamp_tree",
+      "minecraft:patch_dead_bush_2"
+    ],
+    []
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sweetapocalpysebiome:block/chocolate_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sweetapocalpysebiome:block/chocolate_log"
+    },
+    "axis=z": {
+      "model": "sweetapocalpysebiome:block/chocolate_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:candy_grass"
+    },
+    "title": {
+      "translate": "advancements.the_libberator_off_candy.title"
+    },
+    "description": {
+      "translate": "advancements.the_libberator_off_candy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_libberator_off_candy_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "sweetapocalpysebiome:candy_swamp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "sweetapocalpysebiome:blocks/candy_titanium_ore",
+      "sweetapocalpysebiome:blocks/candy_grass",
+      "sweetapocalpysebiome:blocks/cooky_cobble_stone"
+    ]
+  },
+  "parent": "sweetapocalpysebiome:a_cookie_god_miner"
+}

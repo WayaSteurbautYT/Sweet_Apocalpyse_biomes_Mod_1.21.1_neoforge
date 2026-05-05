@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Corruptionpotion",
+    "splashName": "Splash Potion of Corruptionpotion",
+    "lingeringName": "Lingering Potion of Corruptionpotion",
+    "arrowName": "Arrow of Corruptionpotion",
+    "effects": []
+  }
+}

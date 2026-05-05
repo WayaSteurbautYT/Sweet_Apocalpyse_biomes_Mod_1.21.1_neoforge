@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Purifypotion",
+    "splashName": "Splash Potion of Purifypotion",
+    "lingeringName": "Lingering Potion of Purifypotion",
+    "arrowName": "Arrow of Purifypotion",
+    "effects": []
+  }
+}

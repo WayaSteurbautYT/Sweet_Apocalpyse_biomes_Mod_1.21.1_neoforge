@@ -1,0 +1,33 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "enhanced_candy_ingot",
+    "customModelName": "Normal",
+    "name": "Enhanced Candy Ingot",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:SweetApocalypse"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": null,
+    "damageVsEntity": 0,
+    "damageOnBreak": 0,
+    "destroySpeed": 1,
+    "immuneToFire": false,
+    "stayInGridWhenCrafted": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "enableRangedDamage": false,
+    "enableMagicDamage": false,
+    "hasGlow": true,
+    "specialInfo": [
+      "An enhanced version of titanium candy ingot",
+      "Crafted with magical ingredients",
+      "Used for advanced recipes and enchantments"
+    ]
+  }
+}

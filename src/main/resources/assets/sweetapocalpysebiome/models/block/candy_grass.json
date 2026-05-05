@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sweetapocalpysebiome:block/gummydirttop",
+    "up": "sweetapocalpysebiome:block/gummygrasstop",
+    "north": "sweetapocalpysebiome:block/gummygrasssides",
+    "east": "sweetapocalpysebiome:block/gummygrasssides",
+    "south": "sweetapocalpysebiome:block/gummygrasssides",
+    "west": "sweetapocalpysebiome:block/gummygrasssides",
+    "particle": "sweetapocalpysebiome:block/gummydirttop"
+  },
+  "render_type": "cutout_mipped"
+}

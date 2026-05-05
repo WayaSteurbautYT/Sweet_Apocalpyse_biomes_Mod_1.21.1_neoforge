@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sweetapocalpysebiome:titanium_candy_ingot"
+    }
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:candy_titanium_block",
+    "count": 1
+  }
+}

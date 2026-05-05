@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sweetapocalpysebiome:chocolate_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 4,
+    "salt": 1779757359
+  }
+}

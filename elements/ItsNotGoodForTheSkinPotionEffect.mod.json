@@ -1,0 +1,22 @@
+{
+  "_fv": 85,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Its Not Good For The Skin Potion Effect",
+    "splashName": "Splash Potion of Its Not Good For The Skin Potion Effect",
+    "lingeringName": "Lingering Potion of Its Not Good For The Skin Potion Effect",
+    "arrowName": "Arrow of Its Not Good For The Skin Potion Effect",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ItsNotGoodForTheSkinEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:cookie_stones"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cookie",
+    "count": 4
+  }
+}
