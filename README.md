@@ -43,6 +43,7 @@
 - `Titanium Candy Sword`, `Titanium Candy Pickaxe`, `Titanium Candy Axe`, `Titanium Candy Shovel`
 - `Candy Compressor` - Advanced crafting station
 - `Chocolatecorrupted`, `Chocolatefragment` - Corruption system items
+- `Corrupted Cookie` - Harmful food item that triggers corruption effects
 - `Chocolate Boat`, `Chocolate Boat with Chest`
 
 ### ☠️ Corruption System
@@ -89,6 +90,7 @@
 |-------------|-------------|--------|
 | **A Cookie God Miner** | Custom progression around `Cooky Stone` | 20 XP |
 | **The Liberator Of Candy** | Enter `Candy Swamp` biome | Candy biome loot |
+| **Corrupted Cookie Crafter** | Craft first corrupted cookie | 10 XP + Purify potion recipe |
 | **A Sticky Situation** | Custom challenge | - |
 | **Thats Not Good For Skin** | Custom task | - |
 | **Diabetes Type 1** | Death from sticky-effect path | - |
@@ -115,7 +117,8 @@
 | `Chocolatecorrupted x1` | `4 Chocolatefragment` |
 | `Chocolatefragment x2` | `2 Chocolatecorrupted` stacked vertically |
 | `Chocolatecorrupted x1` | Smelt `Chocolatefragment` |
-| `Cookie x4` | Any item in the `cookie_stones` tag |
+| `Chocolatecorrupted x1` | Smelt any chocolate log |
+| `Corrupted Cookie x4` | Any item in the `cookie_stones` tag |
 
 ### 🔥 Cooky Stone Processing
 | Output | Recipe |
@@ -149,6 +152,7 @@
 | `Corrupted Brew` | `Potion + Chocolatecorrupted` |
 | `Sugar Rush` | `Potion + Sugar + Titanium Candy Ingot` |
 | `Sweet Aura` | `Potion + Titanium Candy Ingot` |
+| `Purify Potion` | `Potion + Chocolatefragment` |
 
 ## 📅 Release Planning
 
