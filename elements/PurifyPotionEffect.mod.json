@@ -1,0 +1,39 @@
+{
+  "_fv": 85,
+  "_type": "effect",
+  "definition": {
+    "effectName": "Purify Potion Effect",
+    "icon": "purify_potion_effect",
+    "color": {
+      "value": {
+        "red": 255,
+        "green": 255,
+        "blue": 255,
+        "alpha": 255
+      }
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "PurifyPotionEffectStarted"
+    },
+    "onActiveTick": {
+      "name": "PurifyPotionEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "PurifyPotionEffectExpired"
+    },
+    "onEntityHitWith": {
+      "name": "PurifyPotionEffectEntityHitWith"
+    },
+    "onEntitySwing": {
+      "name": "PurifyPotionEffectEntitySwing"
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

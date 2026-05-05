@@ -6,6 +6,15 @@
     "splashName": "Splash Potion of Purifypotion",
     "lingeringName": "Lingering Potion of Purifypotion",
     "arrowName": "Arrow of Purifypotion",
-    "effects": []
+    "effects": [
+      {
+        "effect": "PurifyPotionEffect",
+        "duration": 100,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true,
+        "showIcon": true
+      }
+    ]
   }
 }
