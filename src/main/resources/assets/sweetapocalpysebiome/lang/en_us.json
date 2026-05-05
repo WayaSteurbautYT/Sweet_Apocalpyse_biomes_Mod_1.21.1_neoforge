@@ -66,6 +66,9 @@
   "item.minecraft.potion.effect.purifypotion": "Potion of Purifypotion",
   "item.sweetapocalpysebiome.chocolatecorrupted_1": "Chocolatecorrupted",
   "item.sweetapocalpysebiome.corrupted_cookie": "Corrupted Cookie",
+  "item.sweetapocalpysebiome.chocolate_bar": "Chocolate Bar",
   "advancements.corrupted_cookie_crafter.title": "Corrupted Cookie Crafter",
-  "advancements.corrupted_cookie_crafter.descr": "Craft your first corrupted cookie from cookie stone"
+  "advancements.corrupted_cookie_crafter.descr": "Craft your first corrupted cookie from cookie stone",
+  "advancements.chocolate_bar_master.title": "Chocolate Bar Master",
+  "advancements.chocolate_bar_master.descr": "Craft your first chocolate bar"
 }

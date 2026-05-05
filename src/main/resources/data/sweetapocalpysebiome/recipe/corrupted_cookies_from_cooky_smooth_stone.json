@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweetapocalpysebiome:cooky_smooth_stone"
+    }
+  ],
+  "result": {
+    "id": "sweetapocalpysebiome:corrupted_cookie",
+    "count": 4
+  }
+}

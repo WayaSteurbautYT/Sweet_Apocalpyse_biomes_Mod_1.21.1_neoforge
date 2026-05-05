@@ -1,0 +1,92 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "chocolate_bar",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Chocolate Bar",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "meleeDamage": 0.0,
+    "meleeKnockback": 0.0,
+    "enableRanged": false,
+    "rangedItem": {
+      "shootThisItem": false,
+      "projectile": {
+        "value": ""
+      },
+      "renderType": 0,
+      "customModelName": "Normal",
+      "texture": "",
+      "textureSize": 16,
+      "projectilePower": 1.0
+    },
+    "onRightClickedOnBlock": {
+      "name": "ChocolateBarRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "ChocolateBarRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "ChocolateBarEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "ChocolateBarItemInInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "ChocolateBarItemInUseTick"
+    },
+    "onCrafted": {
+      "name": "ChocolateBarItemCrafted"
+    },
+    "onEntitySwing": {
+      "name": "ChocolateBarEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "ChocolateBarItemDropped"
+    },
+    "enableFood": true,
+    "nutritionalValue": 6,
+    "saturation": 0.6,
+    "eatingResult": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "openGUIOnRightClick": false,
+    "inventoryDropOnDeath": true,
+    "inventoryStackable": true,
+    "onBlockPlaced": {
+      "name": "ChocolateBarBlockPlaced"
+    },
+    "information": {
+      "value": [
+        "A delicious chocolate bar that provides good nutrition."
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

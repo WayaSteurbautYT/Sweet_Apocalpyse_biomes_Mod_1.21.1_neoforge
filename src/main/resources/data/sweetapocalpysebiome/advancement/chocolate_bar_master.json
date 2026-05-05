@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:chocolate_bar"
+    },
+    "title": {
+      "translate": "advancements.chocolate_bar_master.title",
+      "fallback": "Chocolate Bar Master"
+    },
+    "description": {
+      "translate": "advancements.chocolate_bar_master.descr",
+      "fallback": "Craft your first chocolate bar"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chocolate_bar_master_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sweetapocalpysebiome:chocolate_bar"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15,
+    "recipes": [
+      "sweetapocalpysebiome:chocolate_bar_recipe"
+    ]
+  },
+  "parent": "sweetapocalpysebiome:corrupted_cookie_crafter"
+}
