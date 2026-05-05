@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "sweetapocalpysebiome:chocolate_logs"
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:chocolatecorrupted",
+    "count": 1
+  }
+}

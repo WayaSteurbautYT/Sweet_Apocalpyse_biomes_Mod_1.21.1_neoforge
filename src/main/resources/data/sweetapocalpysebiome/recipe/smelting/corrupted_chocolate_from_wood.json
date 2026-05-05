@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "sweetapocalpysebiome:chocolate_logs"
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:chocolatecorrupted",
+    "count": 1
+  }
+}
