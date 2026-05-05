@@ -1,0 +1,75 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "candy_dimension_portal",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Candy Dimension Portal",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "meleeDamage": 0.0,
+    "meleeKnockback": 0.0,
+    "enableRanged": false,
+    "rangedItem": {
+      "shootThisItem": false,
+      "projectile": {
+        "value": ""
+      },
+      "renderType": 0,
+      "customModelName": "Normal",
+      "texture": "",
+      "textureSize": 16,
+      "projectilePower": 1.0
+    },
+    "onRightClickedOnBlock": {
+      "name": "CandyDimensionPortalItemRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "CandyDimensionPortalItemRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "CandyDimensionPortalItemEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "CandyDimensionPortalItemInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "CandyDimensionPortalItemUseTick"
+    },
+    "onCrafted": {
+      "name": "CandyDimensionPortalItemCrafted"
+    },
+    "onEntitySwing": {
+      "name": "CandyDimensionPortalItemEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "CandyDimensionPortalItemDropped"
+    },
+    "enableFood": false,
+    "information": {
+      "value": [
+        "Use this to create a portal to the Candy Dimension"
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

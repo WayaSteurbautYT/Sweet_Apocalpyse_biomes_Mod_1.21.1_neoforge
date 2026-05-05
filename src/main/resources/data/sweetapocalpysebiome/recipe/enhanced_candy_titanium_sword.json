@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "x",
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "sweetapocalpysebiome:enhanced_candy_titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:enhanced_candy_titanium_sword",
+    "count": 1
+  }
+}

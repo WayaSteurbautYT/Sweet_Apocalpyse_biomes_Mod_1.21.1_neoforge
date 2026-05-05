@@ -1,0 +1,84 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "enhanced_candy_titanium_sword",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Enhanced Candy Titanium Sword",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 20,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "meleeDamage": 12.0,
+    "meleeKnockback": 3.0,
+    "attackSpeed": 1.8,
+    "specialInformation": {
+      "fixedValue": [
+        "Forged with candy magic - heals on hit"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "onRightClickedOnBlock": {
+      "name": "EnhancedCandyTitaniumSwordRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "EnhancedCandyTitaniumSwordRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "EnhancedCandyTitaniumSwordEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "EnhancedCandyTitaniumSwordInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "EnhancedCandyTitaniumSwordUseTick"
+    },
+    "onCrafted": {
+      "name": "EnhancedCandyTitaniumSwordCrafted"
+    },
+    "onEntitySwing": {
+      "name": "EnhancedCandyTitaniumSwordEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "EnhancedCandyTitaniumSwordDropped"
+    },
+    "enableFood": false,
+    "information": {
+      "value": [
+        "An epic sword forged from enhanced candy titanium with healing powers"
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

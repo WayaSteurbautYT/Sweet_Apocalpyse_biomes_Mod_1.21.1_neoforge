@@ -1,0 +1,51 @@
+{
+  "_fv": 85,
+  "_type": "dimension",
+  "definition": {
+    "name": "Candy Dimension",
+    "icon": "candy_dimension",
+    "portalFrame": {
+      "value": "OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "ENTITY_EFFECT"
+    },
+    "portalSound": {
+      "value": "BLOCK_PORTAL_TRIGGER"
+    },
+    "portalIgnitesFire": true,
+    "piglinSafe": false,
+    "respawnAnchorWorks": true,
+    "bedWorks": true,
+    "hasFog": true,
+    "hasSkyLight": true,
+    "ambientLight": 0.5,
+    "infiniburn": {
+      "value": "NORMAL"
+    },
+    "waterVaporizeOnFire": {
+      "value": "FALSE"
+    },
+    "hasCeiling": true,
+    "hasRaids": false,
+    "logicalHeight": 256,
+    "coordinateScale": 1.0,
+    "ultrawarm": false,
+    "natural": false,
+    "shrunk": {
+      "value": "FALSE"
+    },
+    "fixedTime": {
+      "value": "DAY"
+    },
+    "effects": "candy_dimension_effects",
+    "pocketDimension": false,
+    "createDragonFight": false,
+    "monsterSpawnLightLimit": {
+      "value": "0"
+    },
+    "bedRespawnDimension": {
+      "value": "OVERWORLD"
+    }
+  }
+}

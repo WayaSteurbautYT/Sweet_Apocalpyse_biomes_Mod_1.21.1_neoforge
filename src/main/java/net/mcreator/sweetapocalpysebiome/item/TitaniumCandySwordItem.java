@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class TitaniumCandySwordItem extends SwordItem {
 	public TitaniumCandySwordItem() {
-		super(Tiers.DIAMOND, new Item.Properties());
+		super(Tiers.NETHERITE, new Item.Properties());
 	}
 
 	@Override

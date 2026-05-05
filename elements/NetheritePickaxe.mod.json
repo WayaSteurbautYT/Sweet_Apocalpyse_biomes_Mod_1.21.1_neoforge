@@ -1,0 +1,84 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_pickaxe",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Netherite Pickaxe",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "enchantability": 10,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "meleeDamage": 8.0,
+    "meleeKnockback": 1.5,
+    "attackSpeed": 1.4,
+    "specialInformation": {
+      "fixedValue": [
+        "Forged in the depths of the Nether"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "onRightClickedOnBlock": {
+      "name": "NetheritePickaxeRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "NetheritePickaxeRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "NetheritePickaxeEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "NetheritePickaxeInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "NetheritePickaxeUseTick"
+    },
+    "onCrafted": {
+      "name": "NetheritePickaxeCrafted"
+    },
+    "onEntitySwing": {
+      "name": "NetheritePickaxeEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "NetheritePickaxeDropped"
+    },
+    "enableFood": false,
+    "information": {
+      "value": [
+        "An epic pickaxe forged from Netherite"
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

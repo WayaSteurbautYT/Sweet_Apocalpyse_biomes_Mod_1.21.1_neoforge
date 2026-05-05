@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "sweetapocalpysebiome:titaniumcandyingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "sweetapocalpysebiome:enhanced_candy_titanium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "sweetapocalpysebiome:chocolate_bar"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "sweetapocalpysebiome:corrupted_cookie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "sweetapocalpysebiome:purifypotion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "sweetapocalpysebiome:chocolatecorrupted"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

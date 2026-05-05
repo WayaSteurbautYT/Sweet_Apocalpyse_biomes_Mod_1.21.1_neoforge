@@ -1,0 +1,66 @@
+{
+  "_fv": 85,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Candy Trader",
+    "actionText": "Candy Trading",
+    "professionBlock": {
+      "value": "CANDY_COMPRESSOR"
+    },
+    "zombieProfession": {
+      "value": "CANDY_TRADER"
+    },
+    "poi": {
+      "value": "CANDY_COMPRESSOR"
+    },
+    "hat": {
+      "value": "LEATHER_HELMET"
+    },
+    "texture": "candy_trader",
+    "name": "Candy Trader",
+    "professionItems": [
+      {
+        "item": "sweetapocalpysebiome:titaniumcandyingot",
+        "price": 1,
+        "maxUses": 10,
+        "xp": 2,
+        "forEmeralds": true
+      },
+      {
+        "item": "sweetapocalpysebiome:enhanced_candy_titanium_ingot",
+        "price": 3,
+        "maxUses": 5,
+        "xp": 5,
+        "forEmeralds": true
+      },
+      {
+        "item": "sweetapocalpysebiome:chocolate_bar",
+        "price": 2,
+        "maxUses": 12,
+        "xp": 1,
+        "forEmeralds": true
+      },
+      {
+        "item": "sweetapocalpysebiome:chocolatecorrupted",
+        "price": 5,
+        "maxUses": 8,
+        "xp": 3,
+        "forEmeralds": true
+      },
+      {
+        "item": "sweetapocalpysebiome:corrupted_cookie",
+        "price": 1,
+        "maxUses": 20,
+        "xp": 1,
+        "forEmeralds": true
+      },
+      {
+        "item": "sweetapocalpysebiome:purifypotion",
+        "price": 8,
+        "maxUses": 3,
+        "xp": 8,
+        "forEmeralds": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "enhanced_candy_titanium_ingot",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Enhanced Candy Titanium Ingot",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "meleeDamage": 0.0,
+    "meleeKnockback": 0.0,
+    "enableRanged": false,
+    "rangedItem": {
+      "shootThisItem": false,
+      "projectile": {
+        "value": ""
+      },
+      "renderType": 0,
+      "customModelName": "Normal",
+      "texture": "",
+      "textureSize": 16,
+      "projectilePower": 1.0
+    },
+    "onRightClickedOnBlock": {
+      "name": "EnhancedCandyTitaniumIngotRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "EnhancedCandyTitaniumIngotRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "EnhancedCandyTitaniumIngotEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "EnhancedCandyTitaniumIngotInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "EnhancedCandyTitaniumIngotUseTick"
+    },
+    "onCrafted": {
+      "name": "EnhancedCandyTitaniumIngotCrafted"
+    },
+    "onEntitySwing": {
+      "name": "EnhancedCandyTitaniumIngotEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "EnhancedCandyTitaniumIngotDropped"
+    },
+    "enableFood": false,
+    "information": {
+      "value": [
+        "Enhanced titanium ingot with candy-forging properties"
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

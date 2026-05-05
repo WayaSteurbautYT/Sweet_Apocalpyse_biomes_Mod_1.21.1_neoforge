@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "sweetapocalpysebiome:chocolatecorrupted"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "sweetapocalpysebiome:corrupted_cookie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "sweetapocalpysebiome:chocolatefragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "sweetapocalpysebiome:titaniumcandyingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "sweetapocalpysebiome:enhanced_candy_titanium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "sweetapocalpysebiome:chocolate_bar"
+        }
+      ]
+    }
+  ]
+}

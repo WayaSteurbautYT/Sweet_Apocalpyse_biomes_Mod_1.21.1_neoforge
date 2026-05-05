@@ -1,0 +1,84 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_sword",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Netherite Sword",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 15,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "meleeDamage": 10.0,
+    "meleeKnockback": 2.0,
+    "attackSpeed": 1.6,
+    "specialInformation": {
+      "fixedValue": [
+        "Forged in the depths of the Nether"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "onRightClickedOnBlock": {
+      "name": "NetheriteSwordRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "NetheriteSwordRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "NetheriteSwordEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "NetheriteSwordInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "NetheriteSwordUseTick"
+    },
+    "onCrafted": {
+      "name": "NetheriteSwordCrafted"
+    },
+    "onEntitySwing": {
+      "name": "NetheriteSwordEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "NetheriteSwordDropped"
+    },
+    "enableFood": false,
+    "information": {
+      "value": [
+        "An epic sword forged from Netherite, stronger than diamond"
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}
