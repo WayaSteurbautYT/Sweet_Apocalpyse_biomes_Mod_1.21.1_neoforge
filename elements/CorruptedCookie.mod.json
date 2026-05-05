@@ -1,0 +1,92 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "corrupted_cookie",
+    "textureSize": 16,
+    "customModelName": "Normal",
+    "name": "Corrupted Cookie",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "meleeDamage": 0.0,
+    "meleeKnockback": 0.0,
+    "enableRanged": false,
+    "rangedItem": {
+      "shootThisItem": false,
+      "projectile": {
+        "value": ""
+      },
+      "renderType": 0,
+      "customModelName": "Normal",
+      "texture": "",
+      "textureSize": 16,
+      "projectilePower": 1.0
+    },
+    "onRightClickedOnBlock": {
+      "name": "CorruptedCookieRightClickedOnBlock"
+    },
+    "onRightClickedInAir": {
+      "name": "CorruptedCookieRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "CorruptedCookieEntityHitWith"
+    },
+    "onItemInInventoryTick": {
+      "name": "CorruptedCookieItemInInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "CorruptedCookieItemInUseTick"
+    },
+    "onCrafted": {
+      "name": "CorruptedCookieItemCrafted"
+    },
+    "onEntitySwing": {
+      "name": "CorruptedCookieEntitySwing"
+    },
+    "onDroppedByPlayer": {
+      "name": "CorruptedCookieItemDropped"
+    },
+    "enableFood": true,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingResult": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "openGUIOnRightClick": false,
+    "inventoryDropOnDeath": true,
+    "inventoryStackable": true,
+    "onBlockPlaced": {
+      "name": "CorruptedCookieBlockPlaced"
+    },
+    "information": {
+      "value": [
+        "A corrupted cookie that applies harmful effects when eaten."
+      ]
+    },
+    "customProperties": {},
+    "states": [],
+    "animations": []
+  }
+}

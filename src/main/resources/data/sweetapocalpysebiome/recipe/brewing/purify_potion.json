@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion"
+  },
+  "ingredient": {
+    "item": "sweetapocalpysebiome:chocolatefragment"
+  },
+  "result": {
+    "item": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_effects": [
+          {
+            "id": "sweetapocalpysebiome:purify_potion_effect"
+          }
+        ],
+        "custom_name": "{\"text\":\"Potion of Purify\",\"color\":\"white\"}"
+      }
+    }
+  }
+}

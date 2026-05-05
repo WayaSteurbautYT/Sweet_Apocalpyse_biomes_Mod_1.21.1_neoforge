@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:corrupted_cookie"
+    },
+    "title": {
+      "translate": "advancements.corrupted_cookie_crafter.title",
+      "fallback": "Corrupted Cookie Crafter"
+    },
+    "description": {
+      "translate": "advancements.corrupted_cookie_crafter.descr",
+      "fallback": "Craft your first corrupted cookie from cookie stone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "corrupted_cookie_crafter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sweetapocalpysebiome:corrupted_cookie"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "sweetapocalpysebiome:purify_potion"
+    ]
+  },
+  "parent": "sweetapocalpysebiome:the_liberator_off_candy"
+}

@@ -64,5 +64,8 @@
   "item.minecraft.tipped_arrow.effect.purifypotion": "Arrow of Purifypotion",
   "item.minecraft.splash_potion.effect.purifypotion": "Splash Potion of Purifypotion",
   "item.minecraft.potion.effect.purifypotion": "Potion of Purifypotion",
-  "item.sweetapocalpysebiome.chocolatecorrupted_1": "Chocolatecorrupted"
+  "item.sweetapocalpysebiome.chocolatecorrupted_1": "Chocolatecorrupted",
+  "item.sweetapocalpysebiome.corrupted_cookie": "Corrupted Cookie",
+  "advancements.corrupted_cookie_crafter.title": "Corrupted Cookie Crafter",
+  "advancements.corrupted_cookie_crafter.descr": "Craft your first corrupted cookie from cookie stone"
 }
