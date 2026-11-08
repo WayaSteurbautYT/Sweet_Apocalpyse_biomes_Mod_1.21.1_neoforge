@@ -4,7 +4,8 @@ set -euo pipefail
 repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 cd "$repo_root"
 
-if [[ -n "$(git status --porcelain)" ]]; then
+if ! git diff --quiet || ! git diff --cached --quiet ||
+    [[ -n "$(git ls-files --others --exclude-standard)" ]]; then
     printf 'Refusing to update: %s has local changes. Commit or stash them first.\n' "$repo_root" >&2
     exit 1
 fi
