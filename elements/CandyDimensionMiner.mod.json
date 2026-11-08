@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:StepIntoSomethingSticky" },
+    "criteria": {
+      "obtain_candy_titanium_ore": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:candy_titanium_ore" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:candy_titanium_ore" },
+      "title": "Mine Your Own Business",
+      "description": "Bring back Candy Titanium Ore from the dimension. It is not going to mine itself.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "CandyDimensionMiner",
+    "x": 0,
+    "y": 2
+  }
+}

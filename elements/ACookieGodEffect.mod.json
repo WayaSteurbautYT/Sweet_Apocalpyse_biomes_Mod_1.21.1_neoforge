@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "A Cookie God Effect",
@@ -8,9 +8,7 @@
       "value": -5932476,
       "falpha": 0.0
     },
-    "onAddedSound": {
-      "value": "entity.generic.explode"
-    },
+    "onAddedSound": "entity.generic.explode",
     "isInstant": false,
     "mobEffectCategory": "NEUTRAL",
     "renderStatusInInventory": true,
@@ -19,18 +17,12 @@
     "modifiers": [
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "ARMOR"
-        },
+        "attribute": "ARMOR",
         "amount": 0.0,
         "operation": "ADD_VALUE"
       }
     ],
-    "onStarted": {
-      "name": "ACookieGodEffectEffectStartedapplied"
-    },
-    "onMobRemoved": {
-      "name": "ACookieGodEffectOnEntityDeath"
-    }
+    "onStarted": "ACookieGodEffectEffectStartedapplied",
+    "onMobRemoved": "ACookieGodEffectOnEntityDeath"
   }
 }

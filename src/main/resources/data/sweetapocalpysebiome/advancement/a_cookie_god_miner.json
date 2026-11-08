@@ -12,7 +12,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "a_cookie_god_miner_0": {
@@ -30,5 +30,5 @@
   "rewards": {
     "experience": 20
   },
-  "parent": "minecraft:adventure/adventuring_time"
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
 }

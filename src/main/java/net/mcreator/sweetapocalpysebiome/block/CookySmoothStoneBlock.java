@@ -13,21 +13,19 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.sweetapocalpysebiome.procedures.WhenCandyBlocksAreBrokenProcedure;
-import org.jetbrains.annotations.NotNull;
 
-@SuppressWarnings("null")
 public class CookySmoothStoneBlock extends Block {
 	public CookySmoothStoneBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.ANVIL).strength(15f, 6f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).instrument(NoteBlockInstrument.BASEDRUM));
 	}
 
 	@Override
-	public int getLightBlock(@NotNull BlockState state, @NotNull BlockGetter worldIn, @NotNull BlockPos pos) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(@NotNull BlockState blockstate, @NotNull Level world, @NotNull BlockPos pos, @NotNull Player entity, boolean willHarvest, @NotNull FluidState fluid) {
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
 		WhenCandyBlocksAreBrokenProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;

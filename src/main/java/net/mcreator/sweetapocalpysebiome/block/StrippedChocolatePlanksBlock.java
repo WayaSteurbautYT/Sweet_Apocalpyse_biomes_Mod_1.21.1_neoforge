@@ -14,9 +14,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import org.jetbrains.annotations.NotNull;
 
-@SuppressWarnings("null")
 public class StrippedChocolatePlanksBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
@@ -26,32 +24,31 @@ public class StrippedChocolatePlanksBlock extends Block {
 	}
 
 	@Override
-	protected void createBlockStateDefinition(@NotNull StateDefinition.Builder<Block, BlockState> builder) {
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
 		builder.add(AXIS);
 	}
 
 	@Override
-	public BlockState getStateForPlacement(@NotNull BlockPlaceContext context) {
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		BlockState state = super.getStateForPlacement(context);
-		if (state == null) {
-			return this.defaultBlockState().setValue(AXIS, context.getClickedFace().getAxis());
-		}
+		if (state == null)
+			return null;
 		return state.setValue(AXIS, context.getClickedFace().getAxis());
 	}
 
 	@Override
-	public BlockState rotate(@NotNull BlockState state, @NotNull Rotation rot) {
+	public BlockState rotate(BlockState state, Rotation rot) {
 		return RotatedPillarBlock.rotatePillar(state, rot);
 	}
 
 	@Override
-	public int getFlammability(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull Direction face) {
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
 	}
 
 	@Override
-	public int getFireSpreadSpeed(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull Direction face) {
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
 	}
 }

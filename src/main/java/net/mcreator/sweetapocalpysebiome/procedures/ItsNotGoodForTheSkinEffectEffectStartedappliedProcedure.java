@@ -8,7 +8,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.client.multiplayer.ClientPacketListener;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.multiplayer.PlayerInfo;
@@ -18,7 +17,6 @@ import net.minecraft.advancements.AdvancementHolder;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModMobEffects;
 
-@SuppressWarnings("null")
 public class ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
@@ -44,11 +42,7 @@ public class ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure {
 		if (entity instanceof ServerPlayer serverPlayer) {
 			return serverPlayer.gameMode.getGameModeForPlayer();
 		} else if (entity instanceof Player player && player.level().isClientSide()) {
-			ClientPacketListener connection = Minecraft.getInstance().getConnection();
-			if (connection == null) {
-				return null;
-			}
-			PlayerInfo playerInfo = connection.getPlayerInfo(player.getGameProfile().getId());
+			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
 			if (playerInfo != null)
 				return playerInfo.getGameMode();
 		}

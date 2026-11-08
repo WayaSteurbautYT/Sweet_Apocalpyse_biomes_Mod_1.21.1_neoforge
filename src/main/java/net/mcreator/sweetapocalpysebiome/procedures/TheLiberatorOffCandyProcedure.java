@@ -19,12 +19,9 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientPacketListener;
-import net.minecraft.advancements.AdvancementHolder;
 
 import javax.annotation.Nullable;
 
-@SuppressWarnings("null")
 @EventBusSubscriber
 public class TheLiberatorOffCandyProcedure {
 	@SubscribeEvent
@@ -42,30 +39,38 @@ public class TheLiberatorOffCandyProcedure {
 		if (getEntityGameType(entity) == GameType.SURVIVAL) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s iron_axe");
+						"give @s netherite_axe");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s iron_pickaxe");
+						"give @s netherite_pickaxe");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s iron_sword");
+						"give @s netherite_sword");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s sweetapocalpysebiome:titanium_candy_ingot 8");
+						"give @s netherite_helmet");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s sweetapocalpysebiome:chocolatefragment 16");
+						"give @s netherite_chestplate");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s bread 16");
+						"give @s netherite_leggings");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"give @s torch 32");
-		} else if (entity instanceof ServerPlayer _plr10 && _plr10.level() instanceof ServerLevel && hasCompletedAdvancement(_plr10, "sweetapocalpysebiome:a_sticky_situation")) {
+						"give @s netherite_boots");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"give @s notch_apple 16");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"give @s cooked_beef 32");
+		} else if (entity instanceof ServerPlayer _plr10 && _plr10.level() instanceof ServerLevel
+				&& _plr10.getAdvancements().getOrStartProgress(_plr10.server.getAdvancements().get(ResourceLocation.parse("sweetapocalpysebiome:a_sticky_situation"))).isDone()) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"give @s totem_of_undying 5");
-		} else if (entity instanceof ServerPlayer _plr12 && _plr12.level() instanceof ServerLevel && hasCompletedAdvancement(_plr12, "sweetapocalpysebiome:thats_not_good_for_skin")) {
+		} else if (entity instanceof ServerPlayer _plr12 && _plr12.level() instanceof ServerLevel
+				&& _plr12.getAdvancements().getOrStartProgress(_plr12.server.getAdvancements().get(ResourceLocation.parse("sweetapocalpysebiome:thats_not_good_for_skin"))).isDone()) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"give @s cookie 25");
@@ -76,19 +81,10 @@ public class TheLiberatorOffCandyProcedure {
 		if (entity instanceof ServerPlayer serverPlayer) {
 			return serverPlayer.gameMode.getGameModeForPlayer();
 		} else if (entity instanceof Player player && player.level().isClientSide()) {
-			ClientPacketListener connection = Minecraft.getInstance().getConnection();
-			if (connection == null) {
-				return null;
-			}
-			PlayerInfo playerInfo = connection.getPlayerInfo(player.getGameProfile().getId());
+			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
 			if (playerInfo != null)
 				return playerInfo.getGameMode();
 		}
 		return null;
-	}
-
-	private static boolean hasCompletedAdvancement(ServerPlayer player, String advancementId) {
-		AdvancementHolder advancement = player.server.getAdvancements().get(ResourceLocation.parse(advancementId));
-		return advancement != null && player.getAdvancements().getOrStartProgress(advancement).isDone();
 	}
 }

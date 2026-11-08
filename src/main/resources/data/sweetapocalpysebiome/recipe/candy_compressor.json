@@ -13,9 +13,8 @@
     }
   },
   "pattern": [
-    "ICI",
-    "CRC",
-    "ICI"
+    "CC",
+    "II"
   ],
   "result": {
     "id": "sweetapocalpysebiome:candy_compressor",

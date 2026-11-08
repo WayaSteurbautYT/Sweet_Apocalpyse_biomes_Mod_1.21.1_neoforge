@@ -5,13 +5,16 @@
     "displayName": "Candy Trader",
     "actionText": "Candy Trading",
     "professionBlock": {
-      "value": "CANDY_COMPRESSOR"
+      "value": "CUSTOM:CandyCompressor"
     },
     "zombieProfession": {
       "value": "CANDY_TRADER"
     },
+    "creativeTab": {
+      "value": "SWEET_APOCALPYSEBIOME"
+    },
     "poi": {
-      "value": "CANDY_COMPRESSOR"
+      "value": "CUSTOM:CandyCompressor"
     },
     "hat": {
       "value": "LEATHER_HELMET"

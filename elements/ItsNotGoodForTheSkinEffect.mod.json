@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Its Not Good For The Skin Effect",
@@ -8,20 +8,14 @@
       "value": -3270762,
       "falpha": 0.0
     },
-    "onAddedSound": {
-      "value": ""
-    },
+    "onAddedSound": "",
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "isCuredbyHoney": true,
     "modifiers": [],
-    "onStarted": {
-      "name": "AStickySituationEffectEffectStartedapplied"
-    },
-    "onMobRemoved": {
-      "name": "ItsNotGoodForTheSkinEffectOnEntityDeath"
-    }
+    "onStarted": "AStickySituationEffectEffectStartedapplied",
+    "onMobRemoved": "ItsNotGoodForTheSkinEffectOnEntityDeath"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "parent": "sweetapocalpysebiome:purify_food_gui",
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "advancements.purify_food_batch.title"
+    },
+    "description": {
+      "translate": "advancements.purify_food_batch.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purify_food_batch": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

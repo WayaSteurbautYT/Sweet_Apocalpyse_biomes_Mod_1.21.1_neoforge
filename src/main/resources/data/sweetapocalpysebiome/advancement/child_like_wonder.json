@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "advancements.child_like_wonder.title"
+    },
+    "description": {
+      "translate": "advancements.child_like_wonder.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "child_like_wonder_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:chocolatecorrupted"
+    },
+    "title": {
+      "translate": "advancements.terminal_corruption.title"
+    },
+    "description": {
+      "translate": "advancements.terminal_corruption.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "terminal_corruption": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

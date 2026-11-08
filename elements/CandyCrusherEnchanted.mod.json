@@ -1,0 +1,35 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:EnchantedEnough" },
+    "criteria": {
+      "apply_candy_crusher": {
+        "trigger": "minecraft:enchanted_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:enchantments": [
+                { "enchantments": "sweetapocalpysebiome:candy_crusher" }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+      "title": "Crush the Candy",
+      "description": "Put Candy Crusher on a tool. Finally, an enchantment that gets the problem.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "CandyCrusherEnchanted",
+    "x": 0,
+    "y": 1
+  }
+}

@@ -12,7 +12,6 @@ import net.minecraft.world.item.ItemStack;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModPotions;
 
-@SuppressWarnings("null")
 @EventBusSubscriber
 public class BrewingPotionOffACookieGodBrewingRecipe implements IBrewingRecipe {
 	@SubscribeEvent

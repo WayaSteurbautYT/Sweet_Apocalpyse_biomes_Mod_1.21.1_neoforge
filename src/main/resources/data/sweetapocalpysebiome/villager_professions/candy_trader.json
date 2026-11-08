@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:villager_profession",
+  "id": "sweetapocalpysebiome:candy_trader",
+  "display_name": "Candy Trader",
+  "texture": "sweetapocalpysebiome:entity/villager/profession/candy_trader",
+  "workstation": "sweetapocalpysebiome:candy_compressor",
+  "work_sound": "minecraft:block.furnace.fire_crackle",
+  "hired_sound": "minecraft:entity.villager.work_mason"
+}

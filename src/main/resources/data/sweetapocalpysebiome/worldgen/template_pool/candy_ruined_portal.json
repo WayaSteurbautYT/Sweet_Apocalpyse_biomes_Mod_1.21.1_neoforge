@@ -1,0 +1,32 @@
+{
+  "name": "sweetapocalpysebiome:candy_ruined_portal",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sweetapocalpysebiome:candy_portal",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:dirt_path"
+                },
+                {
+                  "Name": "minecraft:dirt"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

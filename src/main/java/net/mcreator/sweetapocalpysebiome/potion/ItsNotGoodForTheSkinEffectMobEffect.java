@@ -34,7 +34,7 @@ public class ItsNotGoodForTheSkinEffectMobEffect extends MobEffect {
 	@Override
 	public void onMobRemoved(LivingEntity entity, int amplifier, Entity.RemovalReason reason) {
 		if (reason == Entity.RemovalReason.KILLED) {
-			ItsNotGoodForTheSkinEffectOnEntityDeathProcedure.execute(entity.level(), entity);
+			ItsNotGoodForTheSkinEffectOnEntityDeathProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		}
 	}
 }

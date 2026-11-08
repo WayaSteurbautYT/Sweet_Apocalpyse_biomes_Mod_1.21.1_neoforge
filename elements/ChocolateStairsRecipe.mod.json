@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "wooden_stairs",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateStairs"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateStairs",
     "name": "chocolate_stairs_recipe",
     "namespace": "mod"
   }

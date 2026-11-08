@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:PurificationPath" },
+    "criteria": {
+      "obtain_purify_ore": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:purify_ore" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:purify_ore" },
+      "title": "Ore Out, Toxins Out",
+      "description": "Get your hands on Purify Ore and learn what the machine is for.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "OreOutToxinsOut",
+    "x": 0,
+    "y": 1
+  }
+}

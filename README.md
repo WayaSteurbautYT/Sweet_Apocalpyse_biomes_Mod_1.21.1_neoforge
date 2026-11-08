@@ -15,7 +15,7 @@
 | **Minecraft** | `1.21.1` |
 | **NeoForge** | `21.1.190+` |
 | **Mod ID** | `sweetapocalpysebiome` |
-| **Current Version** | `1.0.1` (ready for `1.1.0` content update) |
+| **Current Version** | `2.6.5` |
 
 ## 🌍 Main Features
 
@@ -107,6 +107,12 @@
 - **Dimension effects**: Saturation + Regeneration while in Candy Dimension
 - **Exclusive structures**: Candy structures only spawn in this dimension
 
+#### 🚪 How to Get the Candy Dimension Portal (Igniter)
+- **Primary Method**: Find ruined portals in the overworld (30% chance to find Candy Dimension Portal in chests)
+- **Alternative**: Available in creative mode in Sweet Apocalypse tab
+- **Portal Creation**: Right-click Candy Dimension Portal on obsidian blocks to create portal frame
+- **Portal Activation**: Step through the portal to enter Candy Dimension
+
 ### ⚔️ Enhanced Candy Titanium Tools
 - **Enhanced Candy Titanium Sword**: Epic-tier weapon with special abilities:
   - 12 damage (stronger than netherite)
@@ -167,7 +173,9 @@
 | `Titanium Candy Pickaxe x1` | `3 Titanium Candy Ingots + 2 Sticks` |
 | `Titanium Candy Axe x1` | `3 Titanium Candy Ingots + 2 Sticks` |
 | `Titanium Candy Shovel x1` | `1 Titanium Candy Ingot + 2 Sticks` |
-| `Candy Compressor x1` | `4 Candy Titanium Blocks + 4 Titanium Candy Ingots + 1 Redstone Block` |
+| `Candy Compressor x1` | `2x2: Top row: 2 Candy Titanium Blocks, Bottom row: 2 Titanium Candy Ingots` |
+| `Enhanced Candy Titanium Sword x1` | `3x1: 3 Enhanced Candy Titanium Ingots vertically` |
+| `Candy Dimension Portal x1` | `Found in ruined portals (30% chance) or creative mode` |
 
 ### 🔄 Corruption and Food Loop
 | Output | Recipe |
@@ -215,7 +223,7 @@
 
 ## 📅 Release Planning
 
-### 🎯 Current Version: `1.5.0`
+### 🎯 Current Version: `2.6.5`
 
 **Major Features Added:**
 - 🌍 **Candy Dimension** - Complete new dimension with portal system

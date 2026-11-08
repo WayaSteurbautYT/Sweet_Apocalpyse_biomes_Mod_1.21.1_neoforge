@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "gummydirttop",
@@ -51,21 +51,18 @@
     "rarity": "UNCOMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:SweetApocalypse"
-      }
+      "CUSTOM:SweetApocalypse",
+      "CUSTOM:BlocksSpecial"
     ],
     "destroyTool": "Not specified",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 0,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "hasCustomOpacity": true,
     "lightOpacity": 10,
@@ -78,14 +75,14 @@
     },
     "colorOnMap": "GRASS",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
+    "beaconColorModifier": {
+      "value": -65281,
+      "falpha": 0.0
     },
+    "strippingResult": "",
     "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,25 +92,13 @@
     "jumpFactor": 2.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "WET_GRASS",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "WET_GRASS"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -141,18 +126,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "WhenCandyBlocksAreBroken"
-    },
+    "onDestroyedByPlayer": "WhenCandyBlocksAreBroken",
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.GRASS"
-      }
+      "TAG:stone_ore_replaceables",
+      "Blocks.GRASS"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

@@ -18,7 +18,6 @@ import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModPotions;
 
 import java.util.Optional;
 
-@SuppressWarnings("null")
 @EventBusSubscriber
 public class BrewingPotionOffAStickySituationBrewingRecipe implements IBrewingRecipe {
 	@SubscribeEvent

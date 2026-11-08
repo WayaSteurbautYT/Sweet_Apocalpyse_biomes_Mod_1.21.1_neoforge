@@ -9,7 +9,6 @@ import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModWoodTypes;
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModBlocks;
 
 public class ChocolateWallSignBlock extends WallSignBlock {
-	@SuppressWarnings("null")
 	public ChocolateWallSignBlock() {
 		super(SweetapocalpysebiomeModWoodTypes.CHOCOLATE_SIGN_WOOD_TYPE,
 				BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(3f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn().dropsLike(SweetapocalpysebiomeModBlocks.CHOCOLATE_SIGN.get()));

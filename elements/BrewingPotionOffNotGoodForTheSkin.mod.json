@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "Blocks.LOG"
-    },
-    "brewingIngredientStack": {
-      "value": "Blocks.COMMAND_BLOCK"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:ItsNotGoodForTheSkinPotionEffect"
-    },
+    "brewingInputStack": "Blocks.LOG",
+    "brewingIngredientStack": "Blocks.COMMAND_BLOCK",
+    "brewingReturnStack": "POTION:CUSTOM:ItsNotGoodForTheSkinPotionEffect",
     "name": "brewing_potion_off_not_good_for_the_skin",
     "namespace": "mod"
   }

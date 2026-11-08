@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "chatgpt_image_1_mei_2026_18_02_23",
@@ -51,14 +51,11 @@
     "rarity": "EPIC",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:SweetApocalypse"
-      }
+      "CUSTOM:SweetApocalypse",
+      "CUSTOM:BlocksSpecial"
     ],
     "destroyTool": "axe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 0,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,18 +75,14 @@
     },
     "colorOnMap": "PINK",
     "noteBlockInstrument": "custom_head",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "beaconColorModifier": {
       "value": -16711816,
       "falpha": 0.0
     },
-    "strippingResult": {
-      "value": "Blocks.SLIME_BLOCK"
-    },
+    "strippingResult": "Blocks.SLIME_BLOCK",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -99,25 +92,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "ANVIL",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "ANVIL"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -145,24 +126,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "ItsNotGoodForTheSkinEffectEffectStartedapplied"
-    },
-    "onEntityWalksOn": {
-      "name": "AStickySituationEffectEffectStartedapplied"
-    },
+    "onDestroyedByPlayer": "ItsNotGoodForTheSkinEffectEffectStartedapplied",
+    "onEntityWalksOn": "AStickySituationEffectEffectStartedapplied",
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      },
-      {
-        "value": "Blocks.ANCIENT_DEBRIS"
-      }
+      "TAG:stone_ore_replaceables",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.ANCIENT_DEBRIS"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

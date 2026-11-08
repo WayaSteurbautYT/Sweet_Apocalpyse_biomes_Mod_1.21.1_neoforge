@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "discover_sweet_apocalypse": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "Discover the Sweet Apocalypse and chart your path through its challenges.",
+    "frame": "task",
+    "icon": {
+      "id": "sweetapocalpysebiome:candy_d_irt"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "title": "Sweet Apocalypse Achievement Tab"
+  }
+}

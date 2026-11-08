@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "advancements.cleanse_with_food.title"
+    },
+    "description": {
+      "translate": "advancements.cleanse_with_food.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cleanse_with_food": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

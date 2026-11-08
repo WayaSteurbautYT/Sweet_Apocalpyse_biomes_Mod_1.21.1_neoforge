@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "wooden_door",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateDoor"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateDoor",
     "name": "chocolate_door_recipe",
     "namespace": "mod"
   }

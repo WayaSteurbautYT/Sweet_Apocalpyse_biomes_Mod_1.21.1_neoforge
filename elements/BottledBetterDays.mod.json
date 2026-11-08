@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:OreOutToxinsOut" },
+    "criteria": {
+      "obtain_purify_potion": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:purification_potion" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:purifier_block" },
+      "title": "Bottled Better Days",
+      "description": "Carry a Purify Potion. You are going to need it.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "BottledBetterDays",
+    "x": 0,
+    "y": 2
+  }
+}

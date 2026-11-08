@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "wooden_trapdoor",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateTrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateTrapdoor",
     "name": "chocolate_trapdoor_recipe",
     "namespace": "mod"
   }

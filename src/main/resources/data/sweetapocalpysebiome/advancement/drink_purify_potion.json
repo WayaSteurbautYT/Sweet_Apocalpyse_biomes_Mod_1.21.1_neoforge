@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "advancements.drink_purify_potion.title"
+    },
+    "description": {
+      "translate": "advancements.drink_purify_potion.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_purify_potion": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

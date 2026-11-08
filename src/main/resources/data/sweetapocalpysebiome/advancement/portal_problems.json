@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:sweetapocalpysedimension" },
+    "title": "Portal Problems",
+    "description": "Find a Portal Igniter. The other side probably has candy. Probably.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "sweetapocalpysebiome:textures/block/chocolate_leaves.png"
+  },
+  "criteria": {
+    "obtain_portal_igniter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:sweetapocalpysedimension" }] }
+    }
+  }
+}

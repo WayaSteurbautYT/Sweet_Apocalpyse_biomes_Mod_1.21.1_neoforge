@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "purify",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "sweetapocalpysebiome:stripped_chocolate_wood"
+    },
+    "b": {
+      "item": "sweetapocalpysebiome:cookies_notch_apple"
+    },
+    "c": {
+      "item": "sweetapocalpysebiome:purify_ore"
+    },
+    "d": {
+      "item": "sweetapocalpysebiome:candy_d_irt"
+    }
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:purifier_block",
+    "count": 1
+  }
+}

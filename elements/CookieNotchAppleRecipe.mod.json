@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.COOKIE",
+      "Items.COOKIE",
+      "Items.COOKIE",
+      "Items.COOKIE",
+      "Items.APPLE",
+      "Items.COOKIE",
+      "Items.COOKIE",
+      "Items.COOKIE",
+      "Items.COOKIE"
+    ],
+    "recipeReturnStack": "CUSTOM:CookiesNotchApple",
+    "name": "cookie_notch_apple_recipe",
+    "namespace": "mod"
+  }
+}

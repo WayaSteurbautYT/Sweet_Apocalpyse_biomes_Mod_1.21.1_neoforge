@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:cookies_sword" },
+    "title": "Crunch Time",
+    "description": "Craft a Cookie Sword. Things out here bite back.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "sweetapocalpysebiome:textures/item/cookies_sword.png"
+  },
+  "criteria": {
+    "obtain_cookies_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:cookies_sword" }] }
+    }
+  }
+}

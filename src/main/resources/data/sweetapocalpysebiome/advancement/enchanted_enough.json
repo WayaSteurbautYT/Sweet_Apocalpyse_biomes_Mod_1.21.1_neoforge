@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+    "title": "A Little Enchanted",
+    "description": "Enchant an item. Even the tools need a little magic here.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "sweetapocalpysebiome:textures/item/candy_titanium_pickaxe.png"
+  },
+  "criteria": {
+    "enchant_an_item": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {}
+    }
+  }
+}

@@ -9,7 +9,6 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.client.multiplayer.ClientPacketListener;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.multiplayer.PlayerInfo;
@@ -17,7 +16,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.AdvancementHolder;
 
-@SuppressWarnings("null")
 public class AStickySituationEffectEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
@@ -51,11 +49,7 @@ public class AStickySituationEffectEffectStartedappliedProcedure {
 		if (entity instanceof ServerPlayer serverPlayer) {
 			return serverPlayer.gameMode.getGameModeForPlayer();
 		} else if (entity instanceof Player player && player.level().isClientSide()) {
-			ClientPacketListener connection = Minecraft.getInstance().getConnection();
-			if (connection == null) {
-				return null;
-			}
-			PlayerInfo playerInfo = connection.getPlayerInfo(player.getGameProfile().getId());
+			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
 			if (playerInfo != null)
 				return playerInfo.getGameMode();
 		}

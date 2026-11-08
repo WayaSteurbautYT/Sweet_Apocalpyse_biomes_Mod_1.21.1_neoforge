@@ -1,0 +1,26 @@
+{
+  "parent": "sweetapocalpysebiome:enchanted_enough",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+    "title": "Crush the Candy",
+    "description": "Put Candy Crusher on a tool. Finally, an enchantment that gets the problem.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "apply_candy_crusher": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              { "enchantments": "sweetapocalpysebiome:candy_crusher" }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

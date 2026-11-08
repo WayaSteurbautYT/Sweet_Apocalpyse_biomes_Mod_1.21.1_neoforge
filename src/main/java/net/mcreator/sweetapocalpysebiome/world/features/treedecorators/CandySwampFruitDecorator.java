@@ -45,9 +45,6 @@ public class CandySwampFruitDecorator extends CocoaDecorator {
 		RandomSource randomsource = context.random();
 		if (!(randomsource.nextFloat() >= 0.2F)) {
 			List<BlockPos> list = context.logs();
-			if (list.isEmpty()) {
-				return;
-			}
 			int i = list.get(0).getY();
 			list.stream().filter(p_69980_ -> p_69980_.getY() - i <= 2).forEach(p_226026_ -> {
 				for (Direction direction : Direction.Plane.HORIZONTAL) {

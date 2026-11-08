@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "purify",
+    "unlockingItems": [
+      "CUSTOM:PurifyOre",
+      "CUSTOM:StrippedChocolateWood",
+      "CUSTOM:CookiesNotchApple",
+      "CUSTOM:CandyDIrt"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedChocolateWood",
+      "CUSTOM:CookiesNotchApple",
+      "CUSTOM:StrippedChocolateWood",
+      "CUSTOM:StrippedChocolateWood",
+      "CUSTOM:PurifyOre",
+      "CUSTOM:StrippedChocolateWood",
+      "CUSTOM:CandyDIrt",
+      "CUSTOM:CandyDIrt",
+      "CUSTOM:CandyDIrt"
+    ],
+    "recipeReturnStack": "CUSTOM:PurifierBlock",
+    "name": "purrifier_gui_block_recipe",
+    "namespace": "mod"
+  }
+}

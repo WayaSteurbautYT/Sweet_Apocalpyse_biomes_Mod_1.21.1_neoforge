@@ -1,0 +1,18 @@
+{
+  "parent": "sweetapocalpysebiome:candy_cookie_crafter",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+    "title": "A Pickaxe With Purpose",
+    "description": "Craft the Candy Titanium Pickaxe and get serious about mining.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_candy_titanium_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:titanium_candy_pickaxe" }] }
+    }
+  }
+}

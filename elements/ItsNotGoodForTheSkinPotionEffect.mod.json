@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Its Not Good For The Skin Potion Effect",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Its Not Good For The Skin Potion Effect",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:ItsNotGoodForTheSkinEffect"
-        },
+        "effect": "CUSTOM:ItsNotGoodForTheSkinEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

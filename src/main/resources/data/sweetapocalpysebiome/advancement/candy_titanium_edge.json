@@ -1,0 +1,18 @@
+{
+  "parent": "sweetapocalpysebiome:crunch_time",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:titanium_candy_sword" },
+    "title": "Candy Titanium Edge",
+    "description": "Upgrade your bite with a Titanium Candy Sword.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_candy_titanium_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:titanium_candy_sword" }] }
+    }
+  }
+}

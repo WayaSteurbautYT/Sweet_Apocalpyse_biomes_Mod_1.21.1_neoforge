@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:SweetApocalypseProspector" },
+    "criteria": {
+      "obtain_titanium_candy_ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:titanium_candy_ingot" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:titanium_candy_ingot" },
+      "title": "Melt It, Make It",
+      "description": "Turn the ore into Titanium Candy Ingots. Now we are getting somewhere.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "CandyTitaniumSmelter",
+    "x": 0,
+    "y": 1
+  }
+}

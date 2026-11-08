@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:purify_ore_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:redstone_ore",
+            "Properties": {
+              "lit": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:purify_ore_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lapis_ore"
+          }
+        },
+        "state": {
+          "Name": "sweetapocalpysebiome:purify_ore_block"
+        }
+      }
+    ]
+  }
+}

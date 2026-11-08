@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "cookies",
+    "unlockingItems": [
+      "Items.COOKIE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "Items.COOKIE",
+    "blastingReturnStack": "CUSTOM:CookyStone",
+    "name": "cookies_to_stone_blasting",
+    "namespace": "mod"
+  }
+}

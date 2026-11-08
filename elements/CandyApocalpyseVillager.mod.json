@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Candy Apocalpyse Villager",
+    "pointOfInterest": "CUSTOM:CandyTitaniumBlock",
+    "actionSound": "block.azalea_leaves.break",
+    "hat": "Partial",
+    "professionTextureFile": "candy_chocolate_villager_plains.png",
+    "zombifiedProfessionTextureFile": "candy_chocolate_zombie_villager_plains.png"
+  }
+}

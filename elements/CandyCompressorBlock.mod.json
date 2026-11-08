@@ -1,0 +1,65 @@
+{
+  "_fv": 85,
+  "_type": "block",
+  "definition": {
+    "texture": "candy_compressor",
+    "textureTop": "candy_compressor_top",
+    "textureLeft": "candy_compressor_side",
+    "textureFront": "candy_compressor_front",
+    "textureRight": "candy_compressor_side",
+    "textureBack": "candy_compressor_side",
+    "renderType": 0,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "displayFluid": "DEFAULT",
+    "blockSound": "METAL",
+    "ambientLight": 0,
+    "hardness": 3.5,
+    "resistance": 15,
+    "hasGravity": false,
+    "isBeaconBase": false,
+    "canBePlacedOn": [],
+    "emittedRedstonePower": {
+      "fixedValue": 0
+    },
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0,
+    "harvestLevel": 2,
+    "harvestTool": "pickaxe",
+    "itemDrop": {
+      "value": "sweetapocalpysebiome:candy_compressor"
+    },
+    "dropTable": "",
+    "customDrop": "",
+    "specialInfo": [
+      "A powerful device for compressing candy materials"
+    ],
+    "boundingBoxes": [],
+    "customProperties": {},
+    "states": [],
+    "onRightClicked": {
+      "name": "CandyCompressorBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "CandyCompressorBlockAdded"
+    },
+    "onBlockDestroyed": {
+      "name": "CandyCompressorBlockDestroyed"
+    },
+    "name": "Candy Compressor",
+    "creativeTab": {
+      "value": "CUSTOM:SweetApocalypse"
+    },
+    "isLadder": false,
+    "isWaterloggable": false,
+    "isSlimeBlock": false,
+    "isUnbreakable": false,
+    "isPushable": false,
+    "isStickyBlock": false,
+    "isClimbable": false,
+    "isFallDamageCanceling": false,
+    "isToolRequired": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:PortalProblems" },
+    "criteria": {
+      "enter_candy_dimension": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "sweetapocalpysebiome:sweetapocalpysedimension"
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:sweetapocalpysedimension" },
+      "title": "Step Into Something Sticky",
+      "description": "Enter the Candy Dimension. Going back is still an option. Probably.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "StepIntoSomethingSticky",
+    "x": 0,
+    "y": 1
+  }
+}

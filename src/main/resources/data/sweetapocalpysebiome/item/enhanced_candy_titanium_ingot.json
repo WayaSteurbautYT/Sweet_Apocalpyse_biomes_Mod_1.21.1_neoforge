@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sweetapocalpysebiome:item/enhanced_candy_titanium_ingot"
+  }
+}

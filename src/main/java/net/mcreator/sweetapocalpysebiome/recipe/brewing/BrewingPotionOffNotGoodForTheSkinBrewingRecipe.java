@@ -15,7 +15,6 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModPotions;
 
-@SuppressWarnings("null")
 @EventBusSubscriber
 public class BrewingPotionOffNotGoodForTheSkinBrewingRecipe implements IBrewingRecipe {
 	@SubscribeEvent

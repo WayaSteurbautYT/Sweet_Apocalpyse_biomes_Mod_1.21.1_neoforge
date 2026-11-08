@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:chocolate_planks"
+    },
+    "title": {
+      "translate": "advancements.checkout_the_mystery.title"
+    },
+    "description": {
+      "translate": "advancements.checkout_the_mystery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "checkout_the_mystery_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

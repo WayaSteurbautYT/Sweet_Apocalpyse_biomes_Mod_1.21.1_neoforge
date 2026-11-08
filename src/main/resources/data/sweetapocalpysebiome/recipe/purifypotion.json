@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:brewing",
+  "ingredient": {
+    "item": "sweetapocalpysebiome:chocolatefragment"
+  },
+  "result": {
+    "item": "minecraft:potion",
+    "nbt": "{CustomPotionEffects:[{id:\"sweetapocalpysebiome:purify\"}]}"
+  }
+}

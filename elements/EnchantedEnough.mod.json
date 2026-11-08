@@ -1,0 +1,26 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "criteria": {
+      "enchant_an_item": {
+        "trigger": "minecraft:enchanted_item",
+        "conditions": {}
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+      "title": "A Little Enchanted",
+      "description": "Enchant an item. Even the tools need a little magic here.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "sweetapocalpysebiome:textures/item/candy_titanium_pickaxe.png"
+    },
+    "name": "EnchantedEnough",
+    "x": 0,
+    "y": 0
+  }
+}

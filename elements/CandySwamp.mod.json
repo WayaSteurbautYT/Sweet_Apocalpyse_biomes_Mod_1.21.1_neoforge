@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Candy Swamp",
-    "groundBlock": {
-      "value": "CUSTOM:CandyGrass"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:CandyDIrt"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:CookyStone"
-    },
+    "groundBlock": "CUSTOM:CandyGrass",
+    "undergroundBlock": "CUSTOM:CandyDIrt",
+    "underwaterBlock": "CUSTOM:CookyStone",
     "airColor": {
       "value": -1020763,
       "falpha": 0.0
@@ -28,23 +22,13 @@
       "value": -1125705,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": "ambient.crimson_forest.additions"
-    },
-    "additionsSound": {
-      "value": "ambient.cave"
-    },
-    "music": {
-      "value": "CUSTOM:sweet_apocalpyse_song1"
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "ambient.crimson_forest.additions",
+    "additionsSound": "ambient.cave",
+    "music": "CUSTOM:sweet_apocalpyse_song1",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "ASH"
-    },
+    "particleToSpawn": "ASH",
     "particlesProbability": 50.0,
     "rainingPossibility": 0.1,
     "temperature": 1.6,
@@ -79,18 +63,10 @@
     "vanillaTreeType": "Big trees",
     "treeType": 1,
     "minHeight": 10,
-    "treeStem": {
-      "value": "CUSTOM:ChocolateLog"
-    },
-    "treeBranch": {
-      "value": "CUSTOM:ChocolateLeaves"
-    },
-    "treeVines": {
-      "value": "Blocks.SCULK_VEIN"
-    },
-    "treeFruits": {
-      "value": "CUSTOM:CookyCobbleStone"
-    },
+    "treeStem": "CUSTOM:ChocolateLog",
+    "treeBranch": "CUSTOM:ChocolateLeaves",
+    "treeVines": "Blocks.SCULK_VEIN",
+    "treeFruits": "CUSTOM:CookyCobbleStone",
     "defaultFeatures": [
       "Ores",
       "MonsterRooms",
@@ -121,90 +97,63 @@
     "spawnRuinedPortal": "SWAMP",
     "spawnEntries": [
       {
-        "entity": {
-          "value": "EntityPiglin"
-        },
+        "entity": "EntityPiglin",
         "minGroup": 10,
         "maxGroup": 15,
         "weight": 18,
         "spawnType": "creature"
       },
       {
-        "entity": {
-          "value": "EntityBlaze"
-        },
+        "entity": "EntityBlaze",
         "minGroup": 5,
         "maxGroup": 15,
         "weight": 18,
         "spawnType": "creature"
       },
       {
-        "entity": {
-          "value": "EntityBat"
-        },
+        "entity": "EntityBat",
         "minGroup": 4,
         "maxGroup": 4,
         "weight": 12,
         "spawnType": "creature"
       },
       {
-        "entity": {
-          "value": "EntityChicken"
-        },
+        "entity": "EntityChicken",
         "minGroup": 8,
         "maxGroup": 15,
         "weight": 6,
         "spawnType": "monster"
       },
       {
-        "entity": {
-          "value": "EntityCreaking"
-        },
+        "entity": "EntityCreaking",
         "minGroup": 1,
         "maxGroup": 2,
         "weight": 1,
         "spawnType": "ambient"
       },
       {
-        "entity": {
-          "value": "EntityEnderman"
-        },
+        "entity": "EntityEnderman",
         "minGroup": 5,
         "maxGroup": 10,
         "weight": 15,
         "spawnType": "monster"
       },
       {
-        "entity": {
-          "value": "EntityChicken"
-        },
+        "entity": "EntityChicken",
         "minGroup": 4,
         "maxGroup": 10,
         "weight": 18,
         "spawnType": "monster"
       },
       {
-        "entity": {
-          "value": "EntityWarden"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 1,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "EntityVillager"
-        },
+        "entity": "EntityVillager",
         "minGroup": 10,
         "maxGroup": 25,
         "weight": 18,
         "spawnType": "creature"
       },
       {
-        "entity": {
-          "value": "EntityIronGolem"
-        },
+        "entity": "EntityIronGolem",
         "minGroup": 1,
         "maxGroup": 5,
         "weight": 1,

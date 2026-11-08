@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "planks",
     "unlockingItems": [
-      {
-        "value": "TAG:sweetapocalpysebiome:chocolate_logs"
-      }
+      "TAG:sweetapocalpysebiome:chocolate_logs"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "TAG:sweetapocalpysebiome:chocolate_logs"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "TAG:sweetapocalpysebiome:chocolate_logs",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolatePlanks"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolatePlanks",
     "name": "chocolate_planks_recipe",
     "namespace": "mod"
   }

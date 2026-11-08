@@ -1,0 +1,27 @@
+tasks.register('mcreatorLink') {
+  ant.mkdir(dir: 'lib/');
+  ant.get(src: 'https://mcreator.net/link/download/1.21.1', dest: 'lib/mcreator_link.jar', skipexisting: 'true');
+}
+
+compileJava.dependsOn mcreatorLink
+
+dependencies { implementation files("lib/mcreator_link.jar") }
+
+
+repositories {
+  maven {
+    name = 'LDLib2'
+    url = 'https://maven.firstdark.dev/snapshots'
+  }
+  maven {
+    name = 'LDLib2Releases'
+    url = 'https://maven.firstdark.dev/releases'
+  }
+}
+
+dependencies {
+  // Runtime + compile: NeoForge moddev loads implementation mods into runClient
+  implementation 'com.lowdragmc.ldlib2:ldlib2-neoforge-1.21.1:2.2.29'
+}
+
+

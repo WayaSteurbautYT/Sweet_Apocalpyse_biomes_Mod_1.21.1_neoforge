@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:candy_titanium_ore" },
+    "title": "Dig Into the Sweet Stuff",
+    "description": "Mine Candy Titanium Ore and start building something stronger.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "sweetapocalpysebiome:textures/block/chatgpt_image_1_mei_2026_01_09_07.png"
+  },
+  "criteria": {
+    "obtain_candy_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:candy_titanium_ore" }] }
+    }
+  }
+}

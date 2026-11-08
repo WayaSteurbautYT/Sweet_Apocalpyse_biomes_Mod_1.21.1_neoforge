@@ -1,0 +1,61 @@
+{
+  "_fv": 89,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:CandySwamp"
+    ],
+    "biomesInDimensionCaves": [
+      "CUSTOM:CandySwamp"
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": "CUSTOM:StrippedChocolatePlanks",
+    "fluidBlock": "CUSTOM:CandyGrass",
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 512,
+    "skyType": "END",
+    "sunHeightAffectsFog": true,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.75,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": true,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 3,
+    "maxMonsterSpawnLightLimit": 5,
+    "monsterSpawnBlockLightLimit": 8,
+    "onPlayerEntersDimension": "SweetapocalpysedimensionPlayerEntersDimension",
+    "portalFrame": "CUSTOM:ChocolatePlanks",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 0,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Sweetapocalpysedimension Portal Igniter",
+    "igniterRarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "texture": "chocolate_corrupted",
+    "portalTexture": "stripped_chocolate_cookie_dark",
+    "enablePortal": true
+  }
+}

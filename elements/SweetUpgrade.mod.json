@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:CandyTitaniumEdge" },
+    "criteria": {
+      "obtain_enhanced_candy_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:enhanced_candy_titanium_sword" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:titanium_candy_sword" },
+      "title": "Sweet Upgrade",
+      "description": "This one hits harder and heals on hit. No, that is not normal.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "SweetUpgrade",
+    "x": 0,
+    "y": 2
+  }
+}

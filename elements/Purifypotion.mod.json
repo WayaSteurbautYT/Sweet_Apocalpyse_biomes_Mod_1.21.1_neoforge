@@ -1,20 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Purifypotion",
-    "splashName": "Splash Potion of Purifypotion",
-    "lingeringName": "Lingering Potion of Purifypotion",
-    "arrowName": "Arrow of Purifypotion",
-    "effects": [
-      {
-        "effect": "PurifyPotionEffect",
-        "duration": 100,
-        "amplifier": 0,
-        "ambient": false,
-        "showParticles": true,
-        "showIcon": true
-      }
-    ]
+    "potionName": "Potion of Purify Potion",
+    "splashName": "Splash Potion of Purify Potion",
+    "lingeringName": "Lingering Potion of Purify Potion",
+    "arrowName": "Arrow of Purify Potion",
+    "effects": []
   }
 }

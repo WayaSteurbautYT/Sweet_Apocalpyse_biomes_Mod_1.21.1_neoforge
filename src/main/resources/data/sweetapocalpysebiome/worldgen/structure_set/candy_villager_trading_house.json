@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sweetapocalpysebiome:candy_villager_trading_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 2,
+    "salt": 1513538214
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:CookyStone"
-            },
+            "item": "CUSTOM:CookyStone",
             "weight": 1,
             "minCount": 1,
             "maxCount": 1,
@@ -27,9 +25,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.COOKIE"
-            },
+            "item": "Items.COOKIE",
             "weight": 15,
             "minCount": 5,
             "maxCount": 5,
@@ -41,9 +37,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.COOKED_BEEF"
-            },
+            "item": "Items.COOKED_BEEF",
             "weight": 8,
             "minCount": 6,
             "maxCount": 32,
@@ -55,9 +49,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.GOLDEN_APPLE#0"
-            },
+            "item": "Items.GOLDEN_APPLE#0",
             "weight": 6,
             "minCount": 6,
             "maxCount": 16,
@@ -69,9 +61,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.GOLDEN_CARROT"
-            },
+            "item": "Items.GOLDEN_CARROT",
             "weight": 6,
             "minCount": 6,
             "maxCount": 16,
@@ -83,9 +73,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Blocks.CAKE"
-            },
+            "item": "Blocks.CAKE",
             "weight": 6,
             "minCount": 1,
             "maxCount": 3,
@@ -97,9 +85,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.APPLE"
-            },
+            "item": "Items.APPLE",
             "weight": 8,
             "minCount": 16,
             "maxCount": 32,
@@ -111,9 +97,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.CARROT"
-            },
+            "item": "Items.CARROT",
             "weight": 7,
             "minCount": 6,
             "maxCount": 16,
@@ -125,9 +109,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.BAKED_POTATO"
-            },
+            "item": "Items.BAKED_POTATO",
             "weight": 7,
             "minCount": 6,
             "maxCount": 16,
@@ -139,9 +121,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.COOKED_FISH#1"
-            },
+            "item": "Items.COOKED_FISH#1",
             "weight": 7,
             "minCount": 0,
             "maxCount": 16,
@@ -153,9 +133,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.COOKED_FISH#0"
-            },
+            "item": "Items.COOKED_FISH#0",
             "weight": 7,
             "minCount": 6,
             "maxCount": 16,
@@ -167,9 +145,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.NETHERITE_INGOT"
-            },
+            "item": "Items.NETHERITE_INGOT",
             "weight": 5,
             "minCount": 5,
             "maxCount": 15,
@@ -181,9 +157,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.AXOLOTL_BUCKET"
-            },
+            "item": "Items.AXOLOTL_BUCKET",
             "weight": 1,
             "minCount": 1,
             "maxCount": 1,
@@ -195,9 +169,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Items.TOTEM_OF_UNDYING"
-            },
+            "item": "Items.TOTEM_OF_UNDYING",
             "weight": 3,
             "minCount": 3,
             "maxCount": 3,

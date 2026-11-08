@@ -1,0 +1,50 @@
+{
+  "_fv": 89,
+  "_type": "fluid",
+  "definition": {
+    "name": "Caramel Lava",
+    "bucketName": "Caramel Lava Bucket",
+    "textureStill": "caramelsludgenotmoving",
+    "textureFlowing": "caramelsludge",
+    "textureRenderOverlay": "",
+    "hasFog": true,
+    "fogStartDistance": {
+      "fixedValue": -2.5
+    },
+    "fogEndDistance": {
+      "fixedValue": 48.0
+    },
+    "tintType": "Water fog",
+    "canMultiply": false,
+    "flowRate": 40,
+    "levelDecrease": 3,
+    "slopeFindDistance": 10,
+    "spawnParticles": false,
+    "dripParticle": "ASH",
+    "flowStrength": -0.5,
+    "luminosity": 8,
+    "density": -1000,
+    "viscosity": 2000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "caramelbucket",
+    "creativeTabs": [
+      "CUSTOM:SweetApocalypseFood"
+    ],
+    "emptySound": "block.honey_block.slide",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 10,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "PODZOL"
+  }
+}

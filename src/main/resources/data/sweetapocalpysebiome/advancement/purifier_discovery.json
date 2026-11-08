@@ -1,0 +1,30 @@
+{
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab",
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:purifier_block"
+    },
+    "title": {
+      "translate": "advancements.purifier_discovery.title"
+    },
+    "description": {
+      "translate": "advancements.purifier_discovery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_purifier": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sweetapocalpysebiome:purifier_block"
+          }
+        ]
+      }
+    }
+  }
+}

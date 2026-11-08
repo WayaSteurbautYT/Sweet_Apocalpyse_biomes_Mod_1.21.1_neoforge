@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{profession:\"sweetapocalpysebiome:candy_apocalpyse_villager\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.candy_trader_found.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "id": "sweetapocalpysebiome:titanium_candy_ingot"
+    },
+    "title": {
+      "translate": "advancement.candy_trader_found.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

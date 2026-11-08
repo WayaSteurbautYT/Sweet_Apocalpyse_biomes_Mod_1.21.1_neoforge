@@ -14,26 +14,24 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModBlocks;
-import org.jetbrains.annotations.NotNull;
 
-@SuppressWarnings("null")
 public class ChocolatePlanksBlock extends Block {
 	public ChocolatePlanksBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(6f, 7.2246740558f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 	}
 
 	@Override
-	public int getFlammability(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull Direction face) {
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 20;
 	}
 
 	@Override
-	public int getFireSpreadSpeed(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull Direction face) {
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
 	}
 
 	@Override
-	public BlockState getToolModifiedState(@NotNull BlockState blockstate, @NotNull UseOnContext context, @NotNull ItemAbility itemAbility, boolean simulate) {
+	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
 		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
 			return SweetapocalpysebiomeModBlocks.STRIPPED_CHOCOLATE_PLANKS.get().withPropertiesOf(blockstate);
 		}

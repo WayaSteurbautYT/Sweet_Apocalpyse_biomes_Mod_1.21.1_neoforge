@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "criteria": {
+      "obtain_purifier": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:purifier_block" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:purifier_block" },
+      "title": "Clean Start, Dirty World",
+      "description": "Find the Purifier Block. The candy wasteland is not getting cleaner by itself.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "sweetapocalpysebiome:textures/block/purifierblock.png"
+    },
+    "name": "PurificationPath",
+    "x": 0,
+    "y": 0
+  }
+}

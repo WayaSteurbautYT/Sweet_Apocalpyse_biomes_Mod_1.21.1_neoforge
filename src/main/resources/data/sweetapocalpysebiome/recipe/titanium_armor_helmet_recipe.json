@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "sweetapocalpysebiome:titanium_candy_ingot"
+    }
+  },
+  "result": {
+    "id": "sweetapocalpysebiome:titanium_armor_helmet",
+    "count": 1
+  }
+}

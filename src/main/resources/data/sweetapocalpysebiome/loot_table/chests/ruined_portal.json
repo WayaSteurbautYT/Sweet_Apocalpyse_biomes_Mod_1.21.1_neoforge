@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "sweetapocalpysebiome:candy_dimension_portal"
+        },
+        {
+          "type": "minecraft:item", 
+          "weight": 20,
+          "name": "sweetapocalpysebiome:titanium_candy_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "sweetapocalpysebiome:enhanced_candy_titanium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "sweetapocalpysebiome:chocolate_bar"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "sweetapocalpysebiome:purifypotion"
+        }
+      ]
+    }
+  ]
+}

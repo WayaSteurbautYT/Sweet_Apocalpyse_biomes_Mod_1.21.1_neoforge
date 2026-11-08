@@ -18,7 +18,7 @@ public class EnhancedCandyTitaniumSwordEntityHitWith {
 			
 			// Apply candy corruption to target
 			livingTarget.addEffect(new MobEffectInstance(MobEffects.POISON, 60, 0));
-			livingTarget.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 40, 1));
+			livingTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0));
 		}
 	}
 }

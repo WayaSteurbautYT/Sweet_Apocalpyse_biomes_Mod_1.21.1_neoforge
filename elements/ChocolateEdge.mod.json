@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:SweetUpgrade" },
+    "criteria": {
+      "obtain_chocolatefragment_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:chocolatefragment_1_sword" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:chocolatefragment_1_sword" },
+      "title": "Chocolate Edge",
+      "description": "Forge a Fragment Sword and prove you made it past the crumbs.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "ChocolateEdge",
+    "x": 0,
+    "y": 3
+  }
+}

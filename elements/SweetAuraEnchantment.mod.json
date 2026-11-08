@@ -18,12 +18,9 @@
     "canGenerateInLootTables": true,
     "canVillagerTrade": true,
     "specialInfo": [
-      "Grants increased luck when wearing armor",
-      "Higher levels provide more luck bonus",
-      "Works on all armor pieces"
-    ],
-    "onEntityDamaged": {
-      "name": "SweetAuraEffect"
-    }
+      "Grants Luck while wearing enchanted armor",
+      "Higher levels provide a stronger Luck effect",
+      "Can be applied to armor"
+    ]
   }
 }

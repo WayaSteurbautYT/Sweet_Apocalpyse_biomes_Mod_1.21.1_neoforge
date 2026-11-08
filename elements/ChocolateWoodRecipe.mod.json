@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolateLog"
-      }
+      "CUSTOM:ChocolateLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ChocolateLog"
-      },
-      {
-        "value": "CUSTOM:ChocolateLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolateLog"
-      },
-      {
-        "value": "CUSTOM:ChocolateLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:ChocolateLog",
+      "CUSTOM:ChocolateLog",
+      "",
+      "CUSTOM:ChocolateLog",
+      "CUSTOM:ChocolateLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateWood"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateWood",
     "name": "chocolate_wood_recipe",
     "namespace": "mod"
   }

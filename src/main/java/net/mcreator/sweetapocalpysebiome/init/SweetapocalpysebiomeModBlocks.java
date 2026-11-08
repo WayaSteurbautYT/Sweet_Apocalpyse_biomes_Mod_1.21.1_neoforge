@@ -48,6 +48,10 @@ public class SweetapocalpysebiomeModBlocks {
 	public static final DeferredBlock<Block> CHOCOLATE_HANGING_SIGN;
 	public static final DeferredBlock<Block> CHOCOLATE_WALL_HANGING_SIGN;
 	public static final DeferredBlock<Block> STRIPPED_CHOCOLATE_PLANKS;
+	public static final DeferredBlock<Block> SWEETAPOCALPYSEDIMENSION_PORTAL;
+	public static final DeferredBlock<Block> PURIFY_ORE_BLOCK;
+	public static final DeferredBlock<Block> PURIFIER_BLOCK;
+	public static final DeferredBlock<Block> CARAMEL_LAVA;
 	static {
 		COOKY_COBBLE_STONE = REGISTRY.register("cooky_cobble_stone", CookyCobbleStoneBlock::new);
 		COOKY_STONE = REGISTRY.register("cooky_stone", CookyStoneBlock::new);
@@ -75,6 +79,10 @@ public class SweetapocalpysebiomeModBlocks {
 		CHOCOLATE_HANGING_SIGN = REGISTRY.register("chocolate_hanging_sign", ChocolateHangingSignBlock::new);
 		CHOCOLATE_WALL_HANGING_SIGN = REGISTRY.register("chocolate_wall_hanging_sign", ChocolateWallHangingSignBlock::new);
 		STRIPPED_CHOCOLATE_PLANKS = REGISTRY.register("stripped_chocolate_planks", StrippedChocolatePlanksBlock::new);
+		SWEETAPOCALPYSEDIMENSION_PORTAL = REGISTRY.register("sweetapocalpysedimension_portal", SweetapocalpysedimensionPortalBlock::new);
+		PURIFY_ORE_BLOCK = REGISTRY.register("purify_ore_block", PurifyOreBlockBlock::new);
+		PURIFIER_BLOCK = REGISTRY.register("purifier_block", PurifierBlockBlock::new);
+		CARAMEL_LAVA = REGISTRY.register("caramel_lava", CaramelLavaBlock::new);
 	}
 
 	// Start of user code block custom blocks

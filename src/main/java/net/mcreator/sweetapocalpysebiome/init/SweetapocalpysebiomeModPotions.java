@@ -20,5 +20,5 @@ public class SweetapocalpysebiomeModPotions {
 	public static final DeferredHolder<Potion, Potion> ITS_NOT_GOOD_FOR_THE_SKIN_POTION_EFFECT = REGISTRY.register("its_not_good_for_the_skin_potion_effect",
 			() -> new Potion(new MobEffectInstance(SweetapocalpysebiomeModMobEffects.ITS_NOT_GOOD_FOR_THE_SKIN_EFFECT, 3600, 0, false, true)));
 	public static final DeferredHolder<Potion, Potion> CORRUPTIONPOTION = REGISTRY.register("corruptionpotion", () -> new Potion());
-	public static final DeferredHolder<Potion, Potion> PURIFYPOTION = REGISTRY.register("purifypotion", () -> new Potion());
+	public static final DeferredHolder<Potion, Potion> PURIFY_POTION = REGISTRY.register("purify_potion", () -> new Potion());
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chocolate",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweetapocalpysebiome:chocolatefragment"
+    },
+    {
+      "item": "sweetapocalpysebiome:chocolatefragment"
+    },
+    {
+      "item": "sweetapocalpysebiome:chocolatefragment"
+    },
+    {
+      "item": "sweetapocalpysebiome:chocolatefragment"
+    }
+  ],
+  "result": {
+    "id": "sweetapocalpysebiome:chocolate_bar",
+    "count": 1
+  }
+}

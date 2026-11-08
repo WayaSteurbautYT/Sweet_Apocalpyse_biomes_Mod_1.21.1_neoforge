@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "diamond_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Cookies Sword",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "COMBAT",
+      "CUSTOM:SweetApocalypseArmour"
+    ],
+    "efficiency": 18.0,
+    "attackSpeed": 10.0,
+    "enchantability": 91,
+    "damageVsEntity": 39.0,
+    "usageCount": 3436,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.COOKIE"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

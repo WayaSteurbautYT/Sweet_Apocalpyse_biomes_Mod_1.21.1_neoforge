@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sweetapocalpysebiome:block/purifychocolateore",
+    "up": "sweetapocalpysebiome:block/purifychocolateore",
+    "north": "sweetapocalpysebiome:block/purifychocolateore",
+    "east": "sweetapocalpysebiome:block/purifychocolateore",
+    "south": "sweetapocalpysebiome:block/purifychocolateore",
+    "west": "sweetapocalpysebiome:block/purifychocolateore",
+    "particle": "sweetapocalpysebiome:block/purifychocolateore"
+  },
+  "render_type": "solid"
+}

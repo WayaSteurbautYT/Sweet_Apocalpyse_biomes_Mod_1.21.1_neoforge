@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:SweetFirstBite" },
+    "criteria": {
+      "obtain_cookie_apple": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:cookies_notch_apple" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:cookies_notch_apple" },
+      "title": "An Apple a Day-ish",
+      "description": "Find a Cookie Apple. We are not making any health promises.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "CookieAppleTrail",
+    "x": 0,
+    "y": 1
+  }
+}

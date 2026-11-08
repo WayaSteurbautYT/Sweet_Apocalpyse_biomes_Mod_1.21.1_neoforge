@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab",
   "criteria": {
     "has_titanium_pickaxe": {
       "conditions": {
@@ -66,7 +66,7 @@
   },
   "display": {
     "icon": {
-      "item": "sweetapocalpysebiome:titanium_candy_sword"
+      "id": "sweetapocalpysebiome:titanium_candy_sword"
     },
     "title": {
       "translate": "advancement.sweetapocalpysebiome.titanium_candy_tools_master.title",

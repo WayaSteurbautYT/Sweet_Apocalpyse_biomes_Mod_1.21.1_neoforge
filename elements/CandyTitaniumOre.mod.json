@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "chatgpt_image_1_mei_2026_01_09_07",
@@ -51,14 +51,11 @@
     "rarity": "RARE",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:SweetApocalypse"
-      }
+      "CUSTOM:SweetApocalypse",
+      "CUSTOM:BlocksSpecial"
     ],
     "destroyTool": "axe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,18 +75,14 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "bit",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "STICKY_HONEY",
     "beaconColorModifier": {
       "value": -11698075,
       "falpha": 0.0
     },
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -99,25 +92,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "SLIME",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "SLIME"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -145,30 +126,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "ItsNotGoodForTheSkinEffectEffectStartedapplied"
-    },
-    "onEntityWalksOn": {
-      "name": "AStickySituationEffectEffectStartedapplied"
-    },
+    "onDestroyedByPlayer": "ItsNotGoodForTheSkinEffectEffectStartedapplied",
+    "onEntityWalksOn": "AStickySituationEffectEffectStartedapplied",
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "Blocks.PUMPKIN"
-      },
-      {
-        "value": "Blocks.MAGMA"
-      },
-      {
-        "value": "Blocks.MELON_BLOCK"
-      },
-      {
-        "value": "Blocks.COCOA"
-      },
-      {
-        "value": "Blocks.DIAMOND_ORE"
-      }
+      "Blocks.PUMPKIN",
+      "Blocks.MAGMA",
+      "Blocks.MELON_BLOCK",
+      "Blocks.COCOA",
+      "Blocks.DIAMOND_ORE"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

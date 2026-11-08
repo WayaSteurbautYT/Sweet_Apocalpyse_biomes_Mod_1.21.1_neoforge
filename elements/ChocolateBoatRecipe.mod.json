@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "boat",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateBoat"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateBoat",
     "name": "chocolate_boat_recipe",
     "namespace": "mod"
   }

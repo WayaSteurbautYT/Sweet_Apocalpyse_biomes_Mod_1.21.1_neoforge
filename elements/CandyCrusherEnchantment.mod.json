@@ -18,9 +18,9 @@
     "canGenerateInLootTables": true,
     "canVillagerTrade": true,
     "specialInfo": [
-      "Increases mining speed for candy blocks",
+      "Increases mining speed on candy blocks by 20% per level",
       "Higher levels provide faster mining",
-      "Works on all mining tools"
+      "Can be applied to mining tools"
     ]
   }
 }

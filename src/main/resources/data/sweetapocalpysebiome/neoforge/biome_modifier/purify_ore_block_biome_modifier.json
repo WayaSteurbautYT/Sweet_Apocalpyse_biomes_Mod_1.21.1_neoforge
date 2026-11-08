@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "sweetapocalpysebiome:candy_swamp",
+  "features": "sweetapocalpysebiome:purify_ore_block",
+  "step": "underground_ores"
+}

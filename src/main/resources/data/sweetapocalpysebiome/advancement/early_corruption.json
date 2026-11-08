@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:corrupted_cookie"
+    },
+    "title": {
+      "translate": "advancements.early_corruption.title"
+    },
+    "description": {
+      "translate": "advancements.early_corruption.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "early_corruption": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

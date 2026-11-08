@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of A Cookie God Effect Potion",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of A Cookie God Effect Potion",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:ACookieGodEffect"
-        },
+        "effect": "CUSTOM:ACookieGodEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

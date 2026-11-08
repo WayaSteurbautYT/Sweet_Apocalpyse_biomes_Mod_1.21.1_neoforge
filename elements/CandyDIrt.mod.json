@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "gummydirttop",
@@ -51,14 +51,10 @@
     "rarity": "UNCOMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:SweetApocalypse"
-      }
+      "CUSTOM:SweetApocalypse"
     ],
     "destroyTool": "axe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,14 +74,10 @@
     },
     "colorOnMap": "GRASS",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": true,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -95,25 +87,13 @@
     "jumpFactor": 4.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "WET_GRASS",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "WET_GRASS"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -141,18 +121,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "AStickySituationEffectEffectStartedapplied"
-    },
+    "onDestroyedByPlayer": "AStickySituationEffectEffectStartedapplied",
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      }
+      "TAG:stone_ore_replaceables",
+      "Blocks.DIRT#0"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

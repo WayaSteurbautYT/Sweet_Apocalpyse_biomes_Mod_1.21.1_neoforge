@@ -13,7 +13,6 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModBlocks;
 
-@SuppressWarnings("null")
 public class WhenCandyBlocksAreBrokenProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (SweetapocalpysebiomeModBlocks.CANDY_D_IRT.get().defaultBlockState().is(BlockTags.create(ResourceLocation.parse("mod:candy_blocks")))) {

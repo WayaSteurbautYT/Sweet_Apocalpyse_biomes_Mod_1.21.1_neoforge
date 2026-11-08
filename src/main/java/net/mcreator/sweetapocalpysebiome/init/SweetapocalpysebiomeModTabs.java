@@ -30,7 +30,56 @@ public class SweetapocalpysebiomeModTabs {
 				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_TITANIUM_BLOCK.get().asItem());
 				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_GRASS.get().asItem());
 				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_D_IRT.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.PURIFIER_BLOCK.get().asItem());
 			}).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BLOCKS_SPECIAL = REGISTRY.register("blocks_special",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sweetapocalpysebiome.blocks_special")).icon(() -> new ItemStack(SweetapocalpysebiomeModBlocks.CANDY_GRASS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SweetapocalpysebiomeModBlocks.COOKY_STONE.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_TITANIUM_ORE.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_TITANIUM_BLOCK.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.CANDY_GRASS.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.STRIPPED_CHOCOLATE_LOG.get().asItem());
+				tabData.accept(SweetapocalpysebiomeModBlocks.PURIFY_ORE_BLOCK.get().asItem());
+			}).withTabsBefore(SWEET_APOCALYPSE.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SWEET_APOCALYPSE_FOOD = REGISTRY.register("sweet_apocalypse_food", () -> CreativeModeTab.builder()
+			.title(Component.translatable("item_group.sweetapocalpysebiome.sweet_apocalypse_food")).icon(() -> new ItemStack(SweetapocalpysebiomeModItems.COOKIES_NOTCH_APPLE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATECORRUPTED.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_NOTCH_APPLE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATE_BAR.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CORRUPTED_COOKIE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CARAMEL_LAVA_BUCKET.get());
+			}).withTabsBefore(BLOCKS_SPECIAL.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SWEET_APOCALYPSE_ARMOUR = REGISTRY.register("sweet_apocalypse_armour", () -> CreativeModeTab.builder()
+			.title(Component.translatable("item_group.sweetapocalpysebiome.sweet_apocalypse_armour")).icon(() -> new ItemStack(SweetapocalpysebiomeModItems.COOKIE_ARMOR_CHESTPLATE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_PICKAXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_AXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_SWORD.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_SHOVEL.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_HOE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_PICKAXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_AXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_SWORD.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_SHOVEL.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_HOE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_HELMET.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_CHESTPLATE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_LEGGINGS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_BOOTS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_HELMET.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_CHESTPLATE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_LEGGINGS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_BOOTS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_HELMET.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_CHESTPLATE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_LEGGINGS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_BOOTS.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_PICKAXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_AXE.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_SWORD.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_SHOVEL.get());
+				tabData.accept(SweetapocalpysebiomeModItems.COOKIES_HOE.get());
+			}).withTabsBefore(SWEET_APOCALYPSE_FOOD.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -57,6 +106,35 @@ public class SweetapocalpysebiomeModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATE_BOAT.get());
 			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATE_CHEST_BOAT.get());
+			tabData.accept(SweetapocalpysebiomeModItems.SWEETAPOCALPYSEDIMENSION.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_PICKAXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_AXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_SHOVEL.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_HOE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_PICKAXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_AXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_SHOVEL.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_HOE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIES_PICKAXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIES_AXE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIES_SHOVEL.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIES_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_SWORD.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_SWORD.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_HELMET.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.TITANIUM_ARMOR_BOOTS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_HELMET.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_CHESTPLATE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_LEGGINGS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.CHOCOLATEFRAGMENT_1_ARMOR_BOOTS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_HELMET.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_CHESTPLATE.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_LEGGINGS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIE_ARMOR_BOOTS.get());
+			tabData.accept(SweetapocalpysebiomeModItems.COOKIES_SWORD.get());
 		}
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark",
+    "up": "minecraft:block/crafter_top",
+    "north": "sweetapocalpysebiome:block/purifierblock",
+    "east": "sweetapocalpysebiome:block/purifierblock",
+    "south": "sweetapocalpysebiome:block/purifierblock",
+    "west": "sweetapocalpysebiome:block/purifierblock",
+    "particle": "sweetapocalpysebiome:block/stripped_chocolate_cookie_dark"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "sweetapocalpysebiome:candy_titanium_smelter",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:enhanced_candy_ingot" },
+    "title": "Not Your Average Ingot",
+    "description": "Make Enhanced Candy Titanium. The wasteland just got nervous.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_enhanced_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:enhanced_candy_titanium_ingot" }] }
+    }
+  }
+}

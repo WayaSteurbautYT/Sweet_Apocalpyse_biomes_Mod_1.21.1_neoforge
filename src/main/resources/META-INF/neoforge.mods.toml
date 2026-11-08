@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="sweetapocalpysebiome"
-version="1.5.0"
+version="2.6.4"
 displayName="SweetApocalpyseBiome"
 displayURL="https://www.youtube.com/@wayasteurbaut"
 logoFile="logo.png"
@@ -25,7 +25,7 @@ enumExtensions="META-INF/enumextensions.json"
 [[dependencies.sweetapocalpysebiome]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.190,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 
@@ -36,6 +36,18 @@ enumExtensions="META-INF/enumextensions.json"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.sweetapocalpysebiome]]
+    modId="mcreator_link"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sweetapocalpysebiome]]
+    modId="ldlib2"
+    type="required"
+    versionRange="[2.2.29,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 

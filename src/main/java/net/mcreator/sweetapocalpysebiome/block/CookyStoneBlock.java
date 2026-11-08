@@ -15,9 +15,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.sweetapocalpysebiome.procedures.ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure;
 import net.mcreator.sweetapocalpysebiome.procedures.AStickySituationEffectEffectStartedappliedProcedure;
-import org.jetbrains.annotations.NotNull;
 
-@SuppressWarnings("null")
 public class CookyStoneBlock extends Block {
 	public CookyStoneBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.LODESTONE).strength(3.5f, 6f).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
@@ -25,19 +23,19 @@ public class CookyStoneBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(@NotNull BlockState state, @NotNull BlockGetter worldIn, @NotNull BlockPos pos) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(@NotNull BlockState blockstate, @NotNull Level world, @NotNull BlockPos pos, @NotNull Player entity, boolean willHarvest, @NotNull FluidState fluid) {
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
 		ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure.execute(world, entity);
 		return retval;
 	}
 
 	@Override
-	public void stepOn(@NotNull Level world, @NotNull BlockPos pos, @NotNull BlockState blockstate, @NotNull Entity entity) {
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
 		AStickySituationEffectEffectStartedappliedProcedure.execute(world, entity);
 	}

@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "chocolate",
+    "unlockingItems": [
+      "CUSTOM:ChocolateLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "CUSTOM:ChocolateLog",
+    "smeltingReturnStack": "CUSTOM:Chocolatecorrupted",
+    "name": "chocolate_log_smelting",
+    "namespace": "mod"
+  }
+}

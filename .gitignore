@@ -17,6 +17,7 @@ bin/
 .mcreator/userSettings
 .mcreator/workspaceBackups/
 .mcreator/localHistory/
+.mcreator/fullBackups/
 .kilo/
 
 hs_err_pid*

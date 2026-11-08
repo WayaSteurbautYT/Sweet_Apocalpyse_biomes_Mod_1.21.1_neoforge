@@ -1,0 +1,18 @@
+{
+  "parent": "sweetapocalpysebiome:sweet_upgrade",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:chocolatefragment_1_sword" },
+    "title": "Chocolate Edge",
+    "description": "Forge a Fragment Sword and prove you made it past the crumbs.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_chocolatefragment_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:chocolatefragment_1_sword" }] }
+    }
+  }
+}

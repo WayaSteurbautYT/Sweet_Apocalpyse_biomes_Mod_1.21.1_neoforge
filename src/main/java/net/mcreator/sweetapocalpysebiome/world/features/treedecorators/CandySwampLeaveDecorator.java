@@ -17,7 +17,6 @@ import net.minecraft.core.BlockPos;
 
 import com.mojang.serialization.MapCodec;
 
-@SuppressWarnings("null")
 @EventBusSubscriber
 public class CandySwampLeaveDecorator extends LeaveVineDecorator {
 	public static MapCodec<CandySwampLeaveDecorator> CODEC = MapCodec.unit(CandySwampLeaveDecorator::new);

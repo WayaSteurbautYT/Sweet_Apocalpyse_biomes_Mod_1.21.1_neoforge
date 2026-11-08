@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.sweetapocalpysebiome.network.SweetapocalpysebiomeModVariables;
+import net.mcreator.sweetapocalpysebiome.network.PurifyGUIStatePacket;
+import net.mcreator.sweetapocalpysebiome.network.PurifyGUICraftPacket;
+import net.mcreator.sweetapocalpysebiome.network.PurifyFoodPacket;
 import net.mcreator.sweetapocalpysebiome.init.*;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -44,9 +48,17 @@ public class SweetapocalpysebiomeMod {
 		SweetapocalpysebiomeModBlocks.REGISTRY.register(modEventBus);
 		SweetapocalpysebiomeModItems.REGISTRY.register(modEventBus);
 		SweetapocalpysebiomeModTabs.REGISTRY.register(modEventBus);
+		SweetapocalpysebiomeModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		SweetapocalpysebiomeModPotions.REGISTRY.register(modEventBus);
 		SweetapocalpysebiomeModMobEffects.REGISTRY.register(modEventBus);
+		SweetapocalpysebiomeModMenus.REGISTRY.register(modEventBus);
+		SweetapocalpysebiomeModVillagerProfessions.PROFESSIONS.register(modEventBus);
+		SweetapocalpysebiomeModFluids.REGISTRY.register(modEventBus);
+		SweetapocalpysebiomeModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
+		SweetapocalpysebiomeMod.addNetworkMessage(PurifyGUICraftPacket.TYPE, PurifyGUICraftPacket.STREAM_CODEC, PurifyGUICraftPacket::handleData);
+		SweetapocalpysebiomeMod.addNetworkMessage(PurifyGUIStatePacket.TYPE, PurifyGUIStatePacket.STREAM_CODEC, PurifyGUIStatePacket::handleData);
+		SweetapocalpysebiomeMod.addNetworkMessage(PurifyFoodPacket.TYPE, PurifyFoodPacket.STREAM_CODEC, PurifyFoodPacket::handleData);
 		// End of user code block mod init
 	}
 

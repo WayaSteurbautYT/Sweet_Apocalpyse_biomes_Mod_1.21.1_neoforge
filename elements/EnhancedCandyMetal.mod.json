@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:CandyTitaniumSmelter" },
+    "criteria": {
+      "obtain_enhanced_ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:enhanced_candy_titanium_ingot" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:enhanced_candy_ingot" },
+      "title": "Not Your Average Ingot",
+      "description": "Make Enhanced Candy Titanium. The wasteland just got nervous.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "EnhancedCandyMetal",
+    "x": 0,
+    "y": 2
+  }
+}

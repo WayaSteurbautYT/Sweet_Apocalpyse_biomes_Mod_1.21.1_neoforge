@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "chocolate",
+    "unlockingItems": [
+      "CUSTOM:ChocolateWood"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "CUSTOM:ChocolateWood",
+    "smeltingReturnStack": "CUSTOM:Chocolatecorrupted",
+    "name": "c_hocolate_wood_to_fragments",
+    "namespace": "mod"
+  }
+}

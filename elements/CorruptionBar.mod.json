@@ -1,0 +1,229 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage1.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage2.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage3.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage4.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage5.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage6.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage7.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage8.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage9.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage10.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage11.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage12.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage13.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "emptcorruptedfoodbar_stage14.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 186,
+          "locked": true
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": "CorruptionGUIStage2",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 18,
+      "oy": 10,
+      "snapOnGrid": true
+    }
+  }
+}

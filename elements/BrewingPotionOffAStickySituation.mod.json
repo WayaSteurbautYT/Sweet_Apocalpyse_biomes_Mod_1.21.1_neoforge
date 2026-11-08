@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:CUSTOM:ACookieGodEffectPotion"
-    },
-    "brewingIngredientStack": {
-      "value": "Items.TOTEM_OF_UNDYING"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:AStickySituationEffectPotion"
-    },
+    "brewingInputStack": "POTION:CUSTOM:ACookieGodEffectPotion",
+    "brewingIngredientStack": "Items.TOTEM_OF_UNDYING",
+    "brewingReturnStack": "POTION:CUSTOM:AStickySituationEffectPotion",
     "name": "brewing_potion_off_a_sticky_situation",
     "namespace": "mod"
   }

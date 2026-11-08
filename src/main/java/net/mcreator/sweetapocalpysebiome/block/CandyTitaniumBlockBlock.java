@@ -24,12 +24,10 @@ import net.minecraft.util.FastColor;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import org.jetbrains.annotations.NotNull;
 
 import net.mcreator.sweetapocalpysebiome.procedures.ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure;
 import net.mcreator.sweetapocalpysebiome.procedures.AStickySituationEffectEffectStartedappliedProcedure;
 
-@SuppressWarnings("null")
 public class CandyTitaniumBlockBlock extends Block implements BonemealableBlock {
 	public CandyTitaniumBlockBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.ANVIL).strength(50f, 10f).friction(0.8f).speedFactor(1.5f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
@@ -37,17 +35,17 @@ public class CandyTitaniumBlockBlock extends Block implements BonemealableBlock 
 	}
 
 	@Override
-	public Integer getBeaconColorMultiplier(@NotNull BlockState state, @NotNull LevelReader world, @NotNull BlockPos pos, @NotNull BlockPos beaconPos) {
+	public Integer getBeaconColorMultiplier(BlockState state, LevelReader world, BlockPos pos, BlockPos beaconPos) {
 		return FastColor.ARGB32.opaque(-16711816);
 	}
 
 	@Override
-	public int getLightBlock(@NotNull BlockState state, @NotNull BlockGetter worldIn, @NotNull BlockPos pos) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 9;
 	}
 
 	@Override
-	public BlockState getToolModifiedState(@NotNull BlockState blockstate, @NotNull UseOnContext context, @NotNull ItemAbility itemAbility, boolean simulate) {
+	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
 		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
 			return Blocks.SLIME_BLOCK.withPropertiesOf(blockstate);
 		}
@@ -55,34 +53,34 @@ public class CandyTitaniumBlockBlock extends Block implements BonemealableBlock 
 	}
 
 	@Override
-	public TriState canSustainPlant(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull Direction direction, @NotNull BlockState plant) {
+	public TriState canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, BlockState plant) {
 		return TriState.TRUE;
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(@NotNull BlockState blockstate, @NotNull Level world, @NotNull BlockPos pos, @NotNull Player entity, boolean willHarvest, @NotNull FluidState fluid) {
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
 		ItsNotGoodForTheSkinEffectEffectStartedappliedProcedure.execute(world, entity);
 		return retval;
 	}
 
 	@Override
-	public void stepOn(@NotNull Level world, @NotNull BlockPos pos, @NotNull BlockState blockstate, @NotNull Entity entity) {
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
 		AStickySituationEffectEffectStartedappliedProcedure.execute(world, entity);
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(@NotNull LevelReader worldIn, @NotNull BlockPos pos, @NotNull BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
 		return true;
 	}
 
 	@Override
-	public boolean isBonemealSuccess(@NotNull Level world, @NotNull RandomSource random, @NotNull BlockPos pos, @NotNull BlockState blockstate) {
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
 		return true;
 	}
 
 	@Override
-	public void performBonemeal(@NotNull ServerLevel world, @NotNull RandomSource random, @NotNull BlockPos pos, @NotNull BlockState blockstate) {
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
 	}
 }

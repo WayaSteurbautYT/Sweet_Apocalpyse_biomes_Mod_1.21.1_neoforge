@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweetapocalpysebiome:enhanced_candy_titanium_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.enhanced_candy_sword_master.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "sweetapocalpysebiome:titanium_candy_sword"
+    },
+    "title": {
+      "translate": "advancement.enhanced_candy_sword_master.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "parent": "sweetapocalpysebiome:sweet_apocalypse_achievement_tab"
+}

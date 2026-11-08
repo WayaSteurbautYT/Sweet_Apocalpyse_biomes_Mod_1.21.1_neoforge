@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "cookie",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:CookyCobbleStone"
-      }
+      "CUSTOM:CookyCobbleStone"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 100,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:CookyCobbleStone"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:CookyStone"
-    },
+    "blastingInputStack": "CUSTOM:CookyCobbleStone",
+    "blastingReturnStack": "CUSTOM:CookyStone",
     "name": "cookie_smooth_stone_blast_furnace_recipe",
     "namespace": "mod"
   }

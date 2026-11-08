@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:CookieAppleTrail" },
+    "criteria": {
+      "obtain_cookies_notch_apple": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:corrupted_cookie" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:cookies_notch_apple" },
+      "title": "The Dark Side of Snacking",
+      "description": "Try a Corrupted Cookie. It probably has side effects.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "NotchworthySnack",
+    "x": 0,
+    "y": 2
+  }
+}

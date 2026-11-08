@@ -9,7 +9,6 @@ import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModWoodTypes;
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModBlocks;
 
 public class ChocolateWallHangingSignBlock extends WallHangingSignBlock {
-	@SuppressWarnings("null")
 	public ChocolateWallHangingSignBlock() {
 		super(SweetapocalpysebiomeModWoodTypes.CHOCOLATE_HANGING_SIGN_WOOD_TYPE,
 				BlockBehaviour.Properties.of().sound(SoundType.HANGING_SIGN).strength(3f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn().dropsLike(SweetapocalpysebiomeModBlocks.CHOCOLATE_HANGING_SIGN.get()));

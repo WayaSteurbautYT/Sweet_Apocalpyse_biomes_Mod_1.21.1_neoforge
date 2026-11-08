@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "advancement",
+  "definition": {
+    "parent": { "value": "CUSTOM:CandyCookieCrafter" },
+    "criteria": {
+      "obtain_candy_titanium_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [{ "items": "sweetapocalpysebiome:titanium_candy_pickaxe" }]
+        }
+      }
+    },
+    "rewards": {},
+    "display": {
+      "icon": { "item": "sweetapocalpysebiome:titanium_candy_pickaxe" },
+      "title": "A Pickaxe With Purpose",
+      "description": "Craft the Candy Titanium Pickaxe and get serious about mining.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": null
+    },
+    "name": "SweetCookieSmith",
+    "x": 0,
+    "y": 1
+  }
+}

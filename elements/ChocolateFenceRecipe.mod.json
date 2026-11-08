@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "wooden_fence",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "CUSTOM:ChocolatePlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:ChocolatePlanks"
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:ChocolatePlanks",
+      "Items.STICK",
+      "CUSTOM:ChocolatePlanks",
+      "CUSTOM:ChocolatePlanks",
+      "Items.STICK",
+      "CUSTOM:ChocolatePlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChocolateFence"
-    },
+    "recipeReturnStack": "CUSTOM:ChocolateFence",
     "name": "chocolate_fence_recipe",
     "namespace": "mod"
   }

@@ -13,7 +13,6 @@ import net.mcreator.sweetapocalpysebiome.procedures.ACookieGodEffectOnEntityDeat
 import net.mcreator.sweetapocalpysebiome.procedures.ACookieGodEffectEffectStartedappliedProcedure;
 import net.mcreator.sweetapocalpysebiome.SweetapocalpysebiomeMod;
 
-@SuppressWarnings("null")
 public class ACookieGodEffectMobEffect extends MobEffect {
 	public ACookieGodEffectMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -5932476);

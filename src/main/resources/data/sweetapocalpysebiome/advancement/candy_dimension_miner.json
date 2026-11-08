@@ -1,0 +1,18 @@
+{
+  "parent": "sweetapocalpysebiome:step_into_something_sticky",
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:candy_titanium_ore" },
+    "title": "Mine Your Own Business",
+    "description": "Bring back Candy Titanium Ore from the dimension. It is not going to mine itself.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_candy_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:candy_titanium_ore" }] }
+    }
+  }
+}

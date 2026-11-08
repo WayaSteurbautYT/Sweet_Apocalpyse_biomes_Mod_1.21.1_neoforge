@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "sweetapocalpysebiome:chocolatefragment"
+    },
+    "title": {
+      "translate": "advancements.purify_food_gui.title"
+    },
+    "description": {
+      "translate": "advancements.purify_food_gui.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purify_food_gui": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sweetapocalpysebiome:purifier_discovery"
+}

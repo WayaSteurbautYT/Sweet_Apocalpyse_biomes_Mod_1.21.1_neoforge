@@ -18,11 +18,9 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import org.jetbrains.annotations.NotNull;
 
 import net.mcreator.sweetapocalpysebiome.init.SweetapocalpysebiomeModBlocks;
 
-@SuppressWarnings("null")
 public class ChocolateLogBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
@@ -40,9 +38,8 @@ public class ChocolateLogBlock extends Block {
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		BlockState state = super.getStateForPlacement(context);
-		if (state == null) {
-			return this.defaultBlockState().setValue(AXIS, context.getClickedFace().getAxis());
-		}
+		if (state == null)
+			return null;
 		return state.setValue(AXIS, context.getClickedFace().getAxis());
 	}
 

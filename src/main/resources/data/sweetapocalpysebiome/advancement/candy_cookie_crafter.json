@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "sweetapocalpysebiome:chocolate_planks" },
+    "title": "Build Before It Bites",
+    "description": "Get Chocolate Planks and make yourself a place to hide.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "sweetapocalpysebiome:textures/block/chocolate_planks.png"
+  },
+  "criteria": {
+    "obtain_chocolate_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "sweetapocalpysebiome:chocolate_planks" }] }
+    }
+  }
+}
