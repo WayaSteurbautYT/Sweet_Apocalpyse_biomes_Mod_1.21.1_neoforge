@@ -16,6 +16,10 @@ bin/
 .mcreator/modElementThumbnails/
 .mcreator/userSettings
 .mcreator/workspaceBackups/
+.mcreator/localHistory/
+.kilo/
 
 hs_err_pid*
 *.log
+.DS_Store
+Thumbs.db
